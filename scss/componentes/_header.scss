@@ -1,0 +1,46 @@
+@import "../base/lista";
+@import "../base/general";
+@import "../base/extends";
+
+/*Estilo del header*/
+
+//########################no funciona QUERY, probe distintas cosas y en distintas pag################################
+@media screen and (max-width: 995px) {
+  #posicion-quiery {
+    display: flex;
+    justify-content: start;
+    font-size: 3px;
+
+    div ul li a {
+      display: flex;
+      justify-content: start;
+    }
+  }
+}
+
+.header {
+  color: nth($color, 2);
+  font-size: 1rem;
+  background-color: nth($color, 8);
+  font-family: "Avenir Next LT Pro Bold";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  a:hover {
+    background-color: nth($color, 4);
+  }
+
+  #logo {
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid nth($color, 6);
+  }
+
+  a:link {
+    text-decoration: none;
+    @extend %texto;
+  }
+}

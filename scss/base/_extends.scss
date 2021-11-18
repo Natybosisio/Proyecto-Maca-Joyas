@@ -1,0 +1,13 @@
+@import "lista";
+
+%texto{
+  color: nth($color, 3); 
+  text-transform: capitalize;
+}
+
+%centrado {
+    display: flex;
+    justify-content: center;
+}
+
+

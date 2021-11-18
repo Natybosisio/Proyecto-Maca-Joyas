@@ -1,0 +1,27 @@
+@import "../base/lista";
+@import "../base/general";
+@import "../componentes/header";
+
+/*############################## 
+no encuentro como separar los items dentro 
+del area (lo hice con br y pading, no se si
+es correcto)*/
+
+#titulo-faq {
+  font-size: 3rem;
+  text-align: center;
+  color: nth($color, 3);
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#style-faq {
+  font-size: 1rem;
+  color: nth($color, 2);
+  text-align: justify;
+  letter-spacing: 1px;
+  margin: 40px;
+
+  #style-faq li {
+    padding: 10px;
+  }
+}

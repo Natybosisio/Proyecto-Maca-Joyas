@@ -1,0 +1,12 @@
+@import "../base/lista";
+@import "../base/general";
+@import "../base/extends";
+
+/*PAGINA MEDIDAS*/
+
+#medidas {
+    font-size: 2rem;
+    text-align: center;
+    color: nth($color, 2);
+    margin: 50px;
+}

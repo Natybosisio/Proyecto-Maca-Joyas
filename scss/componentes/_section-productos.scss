@@ -1,0 +1,61 @@
+@import "../base/lista";
+@import "../base/general";
+
+//estilos para todos los productos
+
+@media screen and (max-width: 995px) {
+  #imgs-productos {
+    width: 100px;
+    height: 80px;
+    border: 2px solid nth($color, 8);
+    border-radius: 15px;
+  }
+}
+
+#titulo-ppal-productos {
+  font-size: 2.5rem;
+  color: nth($color, 8);
+  background-color: nth($color, 4);
+  margin-top: 20px;
+  @extend %centrado;
+}
+
+#titulo-joyas {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  @extend %centrado;
+  color: nth($color, 3);
+  border: 2px solid nth($color, 3);
+  background-color: nth($color, 8);
+}
+
+.distancia-img {
+  margin-top: 30px;
+}
+
+#imgs-productos {
+  width: 200px;
+  height: 180px;
+  border: 2px solid nth($color, 8);
+  border-radius: 15px;
+}
+
+.link-productos {
+  font-size: 3rem;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: nth($color, 2); /*####No me lo modifica*/
+  border: 2px solid nth($color, 2);
+  border-radius: 15px;
+  background-color: nth($color, 8);
+  width: 30%;
+  @extend %centrado;
+  margin: 20px 20px 20px 150px;
+}
+
+aside div p a {
+  @extend %texto;
+}

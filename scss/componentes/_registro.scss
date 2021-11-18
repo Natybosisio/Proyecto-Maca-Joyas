@@ -1,0 +1,70 @@
+@import "../base/lista";
+@import "../base/general";
+@import "../componentes/header";
+@import "../componentes/footer";
+
+/*PERFIL*/
+
+.Question-registro {
+   color: nth($color, 3);
+   font-size: 0.98rem;
+   margin: 50px 10px 20px 240px;
+}
+
+.titulo-registrate {
+   font-family: "Roboto Mono", monospace;
+   font-size: 20px;
+   font-weight: bold;
+   color: nth($color, 24);
+   margin: 10px 10px 20px 252px;
+   text-transform: uppercase;
+
+   .titulo-registrate:hover {
+      animation: registro 2s;
+   }
+
+   @keyframes registro {
+      0% {
+         color: nth($color, 21);
+      }
+
+      25% {
+         color: nth($color, 22);
+      }
+
+      50% {
+         color: nth($color, 23);
+      }
+
+      75% {
+         color: nth($color, 24);
+      }
+
+      100% {
+         color: nth($color, 21);
+      }
+   }
+}
+
+.registrate {
+   font-size: 1rem;
+   color: nth($color, 9);
+   margin: 30px;
+   display: block;
+   font-family: "Roboto Mono", monospace;
+
+   .boton {
+      background-color: nth($color, 4);
+      color: nth($color, 24);
+      padding-left: 150px;
+      padding-right: 150px;
+      position: relative;
+      left: 20%;
+   }
+}
+
+.Question-inicia {
+   color: nth($color, 3);
+   font-size: 0.98rem;
+   margin: 50px 10px 20px 260px;
+}

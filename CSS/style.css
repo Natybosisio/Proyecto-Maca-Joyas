@@ -1,0 +1,891 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-pagos {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-pagos {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del header*/
+@media screen and (max-width: 995px) {
+  #posicion-quiery {
+    display: flex;
+    justify-content: start;
+    font-size: 3px;
+  }
+  #posicion-quiery div ul li a {
+    display: flex;
+    justify-content: start;
+  }
+}
+.header {
+  color: #5f6769;
+  font-size: 1rem;
+  background-color: #ffdac7;
+  font-family: "Avenir Next LT Pro Bold";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header a:hover {
+  background-color: #b2b1b9;
+}
+
+#logo {
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-pagos {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del header*/
+@media screen and (max-width: 995px) {
+  #posicion-quiery {
+    display: flex;
+    justify-content: start;
+    font-size: 3px;
+  }
+  #posicion-quiery div ul li a {
+    display: flex;
+    justify-content: start;
+  }
+}
+.header {
+  color: #5f6769;
+  font-size: 1rem;
+  background-color: #ffdac7;
+  font-family: "Avenir Next LT Pro Bold";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header a:hover {
+  background-color: #b2b1b9;
+}
+
+#logo {
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-pagos {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del footer*/
+iframe {
+  border: 2px solid #f9d5a7;
+  margin-top: 40px;
+}
+
+.footer-conteiner {
+  background-color: #d6d2c4;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer-pagos {
+  color: #707070;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-redes {
+  color: #3c4245;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  justify-content: center;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-envios {
+  color: #707070;
+  font-size: 1.7rem;
+  font-family: "Roboto Mono", monospace;
+  text-transform: capitalize;
+  justify-content: space-around;
+}
+
+#envios {
+  margin-top: 90px;
+}
+
+/*SECCION PROMOCIONES pagina ppal*/
+.section-promociones {
+  text-align: center;
+  margin-top: 5px;
+  border: 3px solid #ffdac7;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  background-color: #ddeff3;
+  transition-property: all;
+  transition-duration: 3s;
+  width: 100%;
+}
+
+.top-botton {
+  margin-top: 100px;
+}
+
+/*PAGINA PROMOCIONES*/
+#carrusel {
+  width: 700px;
+  height: 710px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+#foto-carrusel {
+  align-content: center;
+  margin-left: 320px;
+}
+
+#texto-carrusel {
+  color: black;
+  font-size: 1, 2rem;
+  background-color: #dfcdc3;
+  width: 60%;
+  margin-left: 250px;
+}
+
+#titulo-promo {
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+  color: #0edabe;
+  text-align: center;
+  display: block;
+  align-content: center;
+  margin: 20px 10px 0px 50px;
+}
+
+#titulo-promo:hover {
+  animation: promo 3s;
+}
+
+@keyframes promo {
+  0% {
+    color: #3eaa93;
+  }
+  25% {
+    color: #21fdce;
+  }
+  50% {
+    color: #88e0c3;
+  }
+  75% {
+    color: #469987;
+  }
+  100% {
+    color: #34c2aa;
+  }
+}
+/*SECCIONES-PLATA-ORO-PIEDRAS inicio*/
+@media screen and (max-width: 1331px) {
+  .para-query {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 3fr;
+    grid-template-areas: "oro plata" "piedras piedras" "preguntas preguntas";
+  }
+}
+.section-mercaderia {
+  justify-content: start;
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: 2fr;
+  grid-template-areas: "oro plata preguntas" "piedras piedras preguntas";
+  height: 950px;
+}
+.section-mercaderia div a {
+  font-size: 2rem;
+}
+
+.posicion-1:hover, .posicion-2:hover, .posicion-3:hover {
+  transform: scale(1.03);
+}
+
+#imgs {
+  width: 400px;
+  height: 400px;
+  margin: 20px 25px 5px 70px;
+  border: 2px solid #ffdac7;
+  border-radius: 15px;
+}
+
+.posicion-1 {
+  grid-area: oro;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+.posicion-2 {
+  grid-area: plata;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+.posicion-3 {
+  grid-area: piedras;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+.foto-piedra {
+  width: 700px;
+  height: 350px;
+  margin-left: 180px;
+  border: 3px solid #ffdac7;
+  border-radius: 15px;
+}
+
+/*SECCION PREGUNTAS FRECUENTES Y MEDIDAS DE ANILLO*/
+.posicion-4 {
+  grid-area: preguntas;
+  font-size: 26px;
+  font-family: "Roboto Mono", monospace;
+  border: 3px solid #ffdac7;
+  margin-top: 30px;
+  padding-top: 90px;
+  text-align: center;
+  border-radius: 20%;
+  height: 700px;
+}
+.posicion-4 li {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del footer*/
+iframe {
+  border: 2px solid #f9d5a7;
+  margin-top: 40px;
+}
+
+.footer-conteiner {
+  background-color: #d6d2c4;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer-pagos {
+  color: #707070;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-redes {
+  color: #3c4245;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  justify-content: center;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-envios {
+  color: #707070;
+  font-size: 1.7rem;
+  font-family: "Roboto Mono", monospace;
+  text-transform: capitalize;
+  justify-content: space-around;
+}
+
+#envios {
+  margin-top: 90px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del header*/
+@media screen and (max-width: 995px) {
+  #posicion-quiery {
+    display: flex;
+    justify-content: start;
+    font-size: 3px;
+  }
+  #posicion-quiery div ul li a {
+    display: flex;
+    justify-content: start;
+  }
+}
+.header {
+  color: #5f6769;
+  font-size: 1rem;
+  background-color: #ffdac7;
+  font-family: "Avenir Next LT Pro Bold";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header a:hover {
+  background-color: #b2b1b9;
+}
+
+#logo {
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*############################## 
+no encuentro como separar los items dentro del area (lo hice con br y pading, no se si es correcto)*/
+#titulo-faq {
+  font-size: 3rem;
+  text-align: center;
+  color: #707070;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#style-faq {
+  font-size: 1rem;
+  color: #5f6769;
+  text-align: justify;
+  letter-spacing: 1px;
+  margin: 40px;
+}
+
+#style-faq li {
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del header*/
+@media screen and (max-width: 995px) {
+  #posicion-quiery {
+    display: flex;
+    justify-content: start;
+    font-size: 3px;
+  }
+  #posicion-quiery div ul li a {
+    display: flex;
+    justify-content: start;
+  }
+}
+.header {
+  color: #5f6769;
+  font-size: 1rem;
+  background-color: #ffdac7;
+  font-family: "Avenir Next LT Pro Bold";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header a:hover {
+  background-color: #b2b1b9;
+}
+
+#logo {
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del footer*/
+iframe {
+  border: 2px solid #f9d5a7;
+  margin-top: 40px;
+}
+
+.footer-conteiner {
+  background-color: #d6d2c4;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer-pagos {
+  color: #707070;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-redes {
+  color: #3c4245;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  justify-content: center;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-envios {
+  color: #707070;
+  font-size: 1.7rem;
+  font-family: "Roboto Mono", monospace;
+  text-transform: capitalize;
+  justify-content: space-around;
+}
+
+#envios {
+  margin-top: 90px;
+}
+
+/*PERFIL*/
+.Question-registro {
+  color: #707070;
+  font-size: 0.98rem;
+  margin: 50px 10px 20px 240px;
+}
+
+.Question-inicia {
+  color: #707070;
+  font-size: 0.98rem;
+  margin: 50px 10px 20px 260px;
+}
+
+.registrate {
+  font-size: 1rem;
+  color: #e9768f;
+  margin: 30px;
+  display: block;
+  font-family: "Roboto Mono", monospace;
+}
+
+.titulo-registrate {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ee316a;
+  margin: 10px 10px 20px 252px;
+  text-transform: uppercase;
+}
+
+.titulo-registrate:hover {
+  animation: registro 2s;
+}
+
+@keyframes registro {
+  0% {
+    color: #fc9fbb;
+  }
+  25% {
+    color: #f88bac;
+  }
+  50% {
+    color: #f5618d;
+  }
+  75% {
+    color: #ee316a;
+  }
+  100% {
+    color: #fc9fbb;
+  }
+}
+.boton {
+  background-color: #b2b1b9;
+  color: #ee316a;
+  padding-left: 150px;
+  padding-right: 150px;
+  position: relative;
+  left: 20%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+  display: flex;
+  justify-content: center;
+}
+
+/*PAGINA MEDIDAS*/
+#medidas {
+  font-size: 2rem;
+  text-align: center;
+  color: #5f6769;
+  margin: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+.descripcion {
+  display: grid;
+  grid-template-columns: 500px 700px;
+  grid-template-rows: 1fr;
+  letter-spacing: 2px;
+  left: 150px;
+}
+.descripcion #foto {
+  width: 200px;
+  height: 400px;
+  margin: 20px 25px 5px 20px;
+  border-radius: 20px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+.descripcion .informacion-personal {
+  padding: 40px;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  font-size: 1.5rem;
+  text-align: justify;
+  border: 5px solid #0edabe;
+  border-style: groove;
+  font-family: "Roboto Mono" monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+@media screen and (max-width: 995px) {
+  #imgs-productos {
+    width: 100px;
+    height: 80px;
+    border: 2px solid #ffdac7;
+    border-radius: 15px;
+  }
+}
+#imgs-productos {
+  width: 200px;
+  height: 180px;
+  border: 2px solid #ffdac7;
+  border-radius: 15px;
+}
+
+.distancia-img {
+  margin-top: 30px;
+}
+
+#titulo-ppal-productos {
+  font-size: 2.5rem;
+  color: #ffdac7;
+  background-color: #b2b1b9;
+  margin-top: 20px;
+}
+
+#titulo-joyas {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #707070;
+  border: 2px solid #707070;
+  background-color: #ffdac7;
+}
+
+.link-productos {
+  font-size: 3rem;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: #5f6769;
+  /*####No me lo modifica*/
+  border: 2px solid #5f6769;
+  border-radius: 15px;
+  background-color: #ffdac7;
+  width: 30%;
+  margin: 20px 20px 20px 150px;
+}
+
+/*# sourceMappingURL=style.css.map */

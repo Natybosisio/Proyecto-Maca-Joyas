@@ -1,0 +1,31 @@
+@import "../base/lista";
+@import "../base/general";
+
+.descripcion {
+    display: grid;
+    grid-template-columns: 500px 700px;
+    grid-template-rows: 1fr;
+    letter-spacing: 2px;
+    left: 150px;
+
+    #foto {
+        width: 200px;
+        height: 400px;
+        margin: 20px 25px 5px 20px;
+        border-radius: 20px;
+        margin-left: 250px;
+        margin-bottom: 20px;
+    }
+
+    .informacion-personal {
+        padding: 40px;
+        margin-top: 100px;
+        margin-bottom: 120px;
+        font-size: 1.5rem;
+        text-align: justify;
+        border: 5px solid nth($color, 13);
+        border-style: groove;
+        font-family: "Roboto Mono" monospace;
+        @extend %centrado;
+    }
+}

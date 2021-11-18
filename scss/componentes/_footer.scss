@@ -1,0 +1,52 @@
+@import "../base/lista";
+@import "../base/general";
+@import "../base/extends";
+
+/*Estilo del footer*/
+
+iframe {
+    border: 2px solid nth($color, 10);
+    margin-top: 40px;
+}
+
+.footer-conteiner {
+    background-color: nth($color, 12);
+    width: 100%;
+    margin-top: 40px;
+
+    .footer-pagos {
+        color: nth($color, 3);
+        font-family: "Roboto Mono", monospace;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        @extend %centrado;
+        margin-bottom: 10px;
+    }
+
+    .footer-redes {
+        color: nth($color, 1);
+        font-family: "Roboto Mono", monospace;
+        font-size: 1rem;
+        justify-content: center;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-envios {
+        color: nth($color, 3);
+        font-size: 1.7rem;
+        font-family: "Roboto Mono", monospace;
+        text-transform: capitalize;
+        justify-content: space-around;
+    }
+    #envios {
+        margin-top: 90px;
+    }
+}
+
+@each $redes in instagram, facebook, wp {
+    .#{$redes} {
+        background-image: url(../../SRC/iconos/#{$redes}.jpg);
+    }
+}

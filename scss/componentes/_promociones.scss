@@ -1,0 +1,79 @@
+@import "../base/lista";
+@import "../base/general";
+@import "../componentes/header";
+@import "../componentes/footer";
+
+/*SECCION PROMOCIONES pagina ppal*/
+.section-promociones {
+    text-align: center;
+    margin-top: 5px;
+    border: 3px solid nth($color, 8);
+    border-radius: 10px;
+    padding: 30px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: nth($color, 14);
+    transition-property: all;
+    transition-duration: 3s;
+    width: 100%;
+}
+
+/*PAGINA PROMOCIONES*/
+
+#titulo-promo {
+    font-family: "Roboto Mono", monospace;
+    font-size: 50px;
+    color: nth($color, 13);
+    text-align: center;
+    display: block;
+    align-content: center;
+    margin: 20px 10px 0px 50px;
+}
+
+#titulo-promo:hover {
+    animation: promo 3s;
+}
+
+@keyframes promo {
+    0% {
+        color: nth($color, 16);
+    }
+
+    25% {
+        color: nth($color, 17);
+    }
+
+    50% {
+        color: nth($color, 18);
+    }
+
+    75% {
+        color: nth($color, 19);
+    }
+
+    100% {
+        color: nth($color, 20);
+    }
+}
+
+#carrusel {
+    width: 700px;
+    height: 710px;
+    align-items: center;
+    margin-bottom: 80px;
+
+    #foto-carrusel {
+        align-content: center;
+        margin-left: 320px;
+    }
+
+    #texto-carrusel {
+        color: nth($color, 15);
+        font-size: 1, 2rem;
+        background-color: nth($color, 5);
+        width: 60%;
+        margin-left: 250px;
+    }
+}
