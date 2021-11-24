@@ -13,12 +13,12 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-pagos {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -38,12 +38,12 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-pagos {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -71,8 +71,7 @@ aside div p a, a:link {
 .header a:hover {
   background-color: #b2b1b9;
 }
-
-#logo {
+.header #logo {
   padding: 0px;
   margin-top: 10px;
   margin-left: 10px;
@@ -80,8 +79,7 @@ aside div p a, a:link {
   height: 100px;
   border: 2px solid #faeee0 #f0e5cf;
 }
-
-a:link {
+.header a:link {
   text-decoration: none;
 }
 
@@ -115,12 +113,12 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-pagos {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -148,8 +146,7 @@ aside div p a, a:link {
 .header a:hover {
   background-color: #b2b1b9;
 }
-
-#logo {
+.header #logo {
   padding: 0px;
   margin-top: 10px;
   margin-left: 10px;
@@ -157,8 +154,7 @@ aside div p a, a:link {
   height: 100px;
   border: 2px solid #faeee0 #f0e5cf;
 }
-
-a:link {
+.header a:link {
   text-decoration: none;
 }
 
@@ -177,12 +173,12 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-pagos {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -198,35 +194,43 @@ iframe {
   width: 100%;
   margin-top: 40px;
 }
-
-.footer-pagos {
+.footer-conteiner .footer-pagos {
   color: #707070;
   font-family: "Roboto Mono", monospace;
   font-size: 1.5rem;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
-.footer-redes {
+.footer-conteiner .footer-redes {
   color: #3c4245;
   font-family: "Roboto Mono", monospace;
-  font-size: 2rem;
+  font-size: 1rem;
   justify-content: center;
   letter-spacing: 2px;
   display: flex;
   justify-content: space-evenly;
 }
-
-.footer-envios {
+.footer-conteiner .footer-envios {
   color: #707070;
   font-size: 1.7rem;
   font-family: "Roboto Mono", monospace;
   text-transform: capitalize;
   justify-content: space-around;
 }
-
-#envios {
+.footer-conteiner #envios {
   margin-top: 90px;
+}
+
+.instagram {
+  background-image: url(../../SRC/iconos/instagram.jpg);
+}
+
+.facebook {
+  background-image: url(../../SRC/iconos/facebook.jpg);
+}
+
+.wp {
+  background-image: url(../../SRC/iconos/wp.jpg);
 }
 
 /*SECCION PROMOCIONES pagina ppal*/
@@ -246,31 +250,7 @@ iframe {
   width: 100%;
 }
 
-.top-botton {
-  margin-top: 100px;
-}
-
 /*PAGINA PROMOCIONES*/
-#carrusel {
-  width: 700px;
-  height: 710px;
-  align-items: center;
-  margin-bottom: 80px;
-}
-
-#foto-carrusel {
-  align-content: center;
-  margin-left: 320px;
-}
-
-#texto-carrusel {
-  color: black;
-  font-size: 1, 2rem;
-  background-color: #dfcdc3;
-  width: 60%;
-  margin-left: 250px;
-}
-
 #titulo-promo {
   font-family: "Roboto Mono", monospace;
   font-size: 50px;
@@ -302,6 +282,24 @@ iframe {
     color: #34c2aa;
   }
 }
+#carrusel {
+  width: 700px;
+  height: 710px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+#carrusel #foto-carrusel {
+  align-content: center;
+  margin-left: 320px;
+}
+#carrusel #texto-carrusel {
+  color: black;
+  font-size: 1, 2rem;
+  background-color: #dfcdc3;
+  width: 60%;
+  margin-left: 250px;
+}
+
 /*SECCIONES-PLATA-ORO-PIEDRAS inicio*/
 @media screen and (max-width: 1331px) {
   .para-query {
@@ -323,7 +321,9 @@ iframe {
   font-size: 2rem;
 }
 
-.posicion-1:hover, .posicion-2:hover, .posicion-3:hover {
+.posicion-1:hover,
+.posicion-2:hover,
+.posicion-3:hover {
   transform: scale(1.03);
 }
 
@@ -394,12 +394,12 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
   display: flex;
   justify-content: center;
 }
@@ -415,50 +415,43 @@ iframe {
   width: 100%;
   margin-top: 40px;
 }
-
-.footer-pagos {
+.footer-conteiner .footer-pagos {
   color: #707070;
   font-family: "Roboto Mono", monospace;
   font-size: 1.5rem;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
-.footer-redes {
+.footer-conteiner .footer-redes {
   color: #3c4245;
   font-family: "Roboto Mono", monospace;
-  font-size: 2rem;
+  font-size: 1rem;
   justify-content: center;
   letter-spacing: 2px;
   display: flex;
   justify-content: space-evenly;
 }
-
-.footer-envios {
+.footer-conteiner .footer-envios {
   color: #707070;
   font-size: 1.7rem;
   font-family: "Roboto Mono", monospace;
   text-transform: capitalize;
   justify-content: space-around;
 }
-
-#envios {
+.footer-conteiner #envios {
   margin-top: 90px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.instagram {
+  background-image: url(../../SRC/iconos/instagram.jpg);
 }
 
-html {
-  font-size: 15px;
-  scroll-behavior: smooth;
+.facebook {
+  background-image: url(../../SRC/iconos/facebook.jpg);
 }
 
-.body {
-  background-color: #faeee0;
+.wp {
+  background-image: url(../../SRC/iconos/wp.jpg);
 }
 
 * {
@@ -476,12 +469,27 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
   display: flex;
   justify-content: center;
 }
@@ -509,8 +517,7 @@ aside div p a, a:link {
 .header a:hover {
   background-color: #b2b1b9;
 }
-
-#logo {
+.header #logo {
   padding: 0px;
   margin-top: 10px;
   margin-left: 10px;
@@ -518,13 +525,14 @@ aside div p a, a:link {
   height: 100px;
   border: 2px solid #faeee0 #f0e5cf;
 }
-
-a:link {
+.header a:link {
   text-decoration: none;
 }
 
 /*############################## 
-no encuentro como separar los items dentro del area (lo hice con br y pading, no se si es correcto)*/
+no encuentro como separar los items dentro 
+del area (lo hice con br y pading, no se si
+es correcto)*/
 #titulo-faq {
   font-size: 3rem;
   text-align: center;
@@ -540,8 +548,7 @@ no encuentro como separar los items dentro del area (lo hice con br y pading, no
   letter-spacing: 1px;
   margin: 40px;
 }
-
-#style-faq li {
+#style-faq #style-faq li {
   padding: 10px;
 }
 
@@ -575,12 +582,12 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
   display: flex;
   justify-content: center;
 }
@@ -608,8 +615,7 @@ aside div p a, a:link {
 .header a:hover {
   background-color: #b2b1b9;
 }
-
-#logo {
+.header #logo {
   padding: 0px;
   margin-top: 10px;
   margin-left: 10px;
@@ -617,8 +623,7 @@ aside div p a, a:link {
   height: 100px;
   border: 2px solid #faeee0 #f0e5cf;
 }
-
-a:link {
+.header a:link {
   text-decoration: none;
 }
 
@@ -637,12 +642,12 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
   display: flex;
   justify-content: center;
 }
@@ -658,35 +663,43 @@ iframe {
   width: 100%;
   margin-top: 40px;
 }
-
-.footer-pagos {
+.footer-conteiner .footer-pagos {
   color: #707070;
   font-family: "Roboto Mono", monospace;
   font-size: 1.5rem;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
-.footer-redes {
+.footer-conteiner .footer-redes {
   color: #3c4245;
   font-family: "Roboto Mono", monospace;
-  font-size: 2rem;
+  font-size: 1rem;
   justify-content: center;
   letter-spacing: 2px;
   display: flex;
   justify-content: space-evenly;
 }
-
-.footer-envios {
+.footer-conteiner .footer-envios {
   color: #707070;
   font-size: 1.7rem;
   font-family: "Roboto Mono", monospace;
   text-transform: capitalize;
   justify-content: space-around;
 }
-
-#envios {
+.footer-conteiner #envios {
   margin-top: 90px;
+}
+
+.instagram {
+  background-image: url(../../SRC/iconos/instagram.jpg);
+}
+
+.facebook {
+  background-image: url(../../SRC/iconos/facebook.jpg);
+}
+
+.wp {
+  background-image: url(../../SRC/iconos/wp.jpg);
 }
 
 /*PERFIL*/
@@ -694,20 +707,6 @@ iframe {
   color: #707070;
   font-size: 0.98rem;
   margin: 50px 10px 20px 240px;
-}
-
-.Question-inicia {
-  color: #707070;
-  font-size: 0.98rem;
-  margin: 50px 10px 20px 260px;
-}
-
-.registrate {
-  font-size: 1rem;
-  color: #e9768f;
-  margin: 30px;
-  display: block;
-  font-family: "Roboto Mono", monospace;
 }
 
 .titulo-registrate {
@@ -718,11 +717,9 @@ iframe {
   margin: 10px 10px 20px 252px;
   text-transform: uppercase;
 }
-
-.titulo-registrate:hover {
+.titulo-registrate .titulo-registrate:hover {
   animation: registro 2s;
 }
-
 @keyframes registro {
   0% {
     color: #fc9fbb;
@@ -740,13 +737,27 @@ iframe {
     color: #fc9fbb;
   }
 }
-.boton {
+
+.registrate {
+  font-size: 1rem;
+  color: #e9768f;
+  margin: 30px;
+  display: block;
+  font-family: "Roboto Mono", monospace;
+}
+.registrate .boton {
   background-color: #b2b1b9;
   color: #ee316a;
   padding-left: 150px;
   padding-right: 150px;
   position: relative;
   left: 20%;
+}
+
+.Question-inicia {
+  color: #707070;
+  font-size: 0.98rem;
+  margin: 50px 10px 20px 260px;
 }
 
 * {
@@ -764,12 +775,12 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, a:link {
+aside div p a, .header a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
   display: flex;
   justify-content: center;
 }
@@ -846,17 +857,6 @@ html {
     border-radius: 15px;
   }
 }
-#imgs-productos {
-  width: 200px;
-  height: 180px;
-  border: 2px solid #ffdac7;
-  border-radius: 15px;
-}
-
-.distancia-img {
-  margin-top: 30px;
-}
-
 #titulo-ppal-productos {
   font-size: 2.5rem;
   color: #ffdac7;
@@ -873,6 +873,17 @@ html {
   color: #707070;
   border: 2px solid #707070;
   background-color: #ffdac7;
+}
+
+.distancia-img {
+  margin-top: 30px;
+}
+
+#imgs-productos {
+  width: 200px;
+  height: 180px;
+  border: 2px solid #ffdac7;
+  border-radius: 15px;
 }
 
 .link-productos {

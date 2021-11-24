@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+
     <!--Animaciones-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
@@ -19,7 +20,6 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="../../CSS/style.css">
-
   
 <!--META PARA USAR RESPONSIVE Y QUE EL USUARIO NO PUEDA HACER ZOOM (TUTORIAL)-->
 <meta name="viewport"
@@ -33,18 +33,18 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=
 <meta name="keywords" content="joyas,plata,oro,925,piedras,cadenas,collares,colgantes,dijes,minorista,mayorista,venta,arreglo,emprendimiento,joyeria,bijuteri,importado,nacional">
 
 <!--Protocolo open graph para definir como se ve en redes sociales-->
-<meta property="og:title" content="Maca Joyas | Inicia sesión o Registrate">
+<meta property="og:title" content="No te lo pierdas | Estos son nuestros productos en promoción">
 <meta property="og:url" content=""> <!--cuando este subido a internet -->
 <meta property="og:image" content=""><!--cuando este subido a internet -->
-<meta property="og:description" content="Para realizar compras y recibir toda la info, Inicia Sesión o Registrate">
+<meta property="og:description" content="Tenemos todas estas ofertas para vos, no te lo pierdas y aprovecha el 15%off abonando en efectivo">
 
 
 <!--Entre 30 a 65 caracteres-->
-
-<title>Maca Joyas | Inicia sesión o Registrate</title>
+    <title>No te lo pierdas | Estos son nuestros productos en promoción</title>
 </head>
 
-<body class="body body text-capitalize">
+<body class="body text-capitalize">
+
     <header class="header">
 
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -65,17 +65,17 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=
                             <a class="nav-link" href="#footer">Pagos y envios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Pestañas/sobremi.html">sobre mi</a>
+                            <a class="nav-link" href="../Page/sobremi.html">sobre mi</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="SRC/Pestañas/perfil.html"
+                            <a class="nav-link dropdown-toggle" href="../Page/perfil.html"
                                 id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 perfil
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../Pestañas/perfil.html">registrate</a></li>
-                                <li><a class="dropdown-item" href="../Pestañas/perfil.html">Inicia sesion</a></li>
+                                <li><a class="dropdown-item" href="../Page/perfil.html">registrate</a></li>
+                                <li><a class="dropdown-item" href="../Page/perfil.html">Inicia sesion</a></li>
 
                             </ul>
                         </li>
@@ -85,43 +85,77 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=
         </nav>
     </header>
 
-    <div class="container-md">
-        <div class="row">
-            <div class="col-lg-6">
-                <h3 class="Question-registro">¿no estas registrado?</h3>
-                <h2 class="titulo-registrate">Registrate</h2>
-                <form class="registrate">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Nombre</label>
-                        <input type="text" class="form-control" placeholder="Nombre">
-                        <label for="exampleInputEmail1">Apellido</label>
-                        <input type="text" class="form-control" placeholder="Apellido">
-                        <label for="exampleInputEmail1">correo electronico</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Email">
-                        <label for="exampleInputEmail1">contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-                        <button type="submit" class="btn boton m-2">Enviar</button>
-                    </div>
-                </form>
+
+
+    <section>
+        <h2 id=titulo-promo> aprovecha 15% de descuento</h2>
+        <!--#################En la clase de repaso de bootstrap explicaron que para achicarlo 
+y centrarlo habia que usar col-lg 8 y asi x cada tamaño de pantalla, yo lo hice agregando id y ajustando en CSS
+Ancho margin etc.... me puede traer problemas mas adelante??? o son 2 formas distintas pero ambas validas?-->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
             </div>
 
-            <div class="col-lg-6">
-                <h3 class="Question-inicia">¿ya tenes cuenta?</h3>
-                <h2 class="titulo-registrate">Inicia Sesión</h2>
-                <form class="registrate">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">correo electronico</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Email">
-                        <label for="exampleInputEmail1">contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-                        <button type="submit" class="boton btn m-2">Enviar</button>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="10000" id="carrusel">
+                    <img id="foto-carrusel" src="../IMAGENES/Imagenes-promociones/dije-plata.jpeg" class="d-block w-100"
+                        alt="producto con descuento">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="texto-carrusel">Dijes plata 925</h5>
                     </div>
-                </form>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000" id="carrusel">
+                    <img id="foto-carrusel" src="../IMAGENES/Imagenes-promociones/dije-plata3.jpeg"
+                        class="d-block w-100" alt="producto con descuento">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="texto-carrusel">Dijes con piedras</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item" id="carrusel">
+                    <img id="foto-carrusel" src="../IMAGENES/Imagenes-promociones/dije-plata2.jpeg"
+                        class="d-block w-100" alt="producto con descuento">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="texto-carrusel">Dijes plata 925</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item" id="carrusel">
+                    <img id="foto-carrusel" src="../IMAGENES/Imagenes-promociones/dije-plata3.jpeg"
+                        class="d-block w-100" alt="producto con descuento">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="texto-carrusel">Dijes piedras</h5>
+                    </div>
+                </div>
+
             </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
         </div>
-    </div>
+
+    </section>
+
 
     <footer id="footer" class="footer-conteiner">
 
