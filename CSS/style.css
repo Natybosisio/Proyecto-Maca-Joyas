@@ -13,12 +13,16 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, .header a:link {
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-conteiner .footer-pagos {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -38,31 +42,23 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, .header a:link {
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-conteiner .footer-pagos {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
 
 /*Estilo del header*/
-@media screen and (max-width: 995px) {
-  #posicion-quiery {
-    display: flex;
-    justify-content: start;
-    font-size: 3px;
-  }
-  #posicion-quiery div ul li a {
-    display: flex;
-    justify-content: start;
-  }
-}
 .header {
   color: #5f6769;
-  font-size: 1rem;
   background-color: #ffdac7;
   font-family: "Avenir Next LT Pro Bold";
   letter-spacing: 2px;
@@ -71,15 +67,43 @@ aside div p a, .header a:link {
 .header a:hover {
   background-color: #b2b1b9;
 }
+.header h1 {
+  font-size: 1.5rem;
+}
+.header h2 {
+  font-size: 1rem;
+}
+.header .distribucion {
+  margin-left: 25rem;
+  font-size: 1.5rem;
+}
+.header .titulo.marca {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
 .header #logo {
-  padding: 0px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 100px;
-  height: 100px;
+  width: 20vh;
+  height: 20vh;
   border: 2px solid #faeee0 #f0e5cf;
 }
-.header a:link {
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+a:link {
   text-decoration: none;
 }
 
@@ -98,46 +122,23 @@ html {
   background-color: #faeee0;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+a:link {
+  text-decoration: none;
 }
 
-html {
-  font-size: 15px;
-  scroll-behavior: smooth;
-}
-
-.body {
-  background-color: #faeee0;
-}
-
-aside div p a, .header a:link {
+aside div p a, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-conteiner .footer-pagos {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
 
 /*Estilo del header*/
-@media screen and (max-width: 995px) {
-  #posicion-quiery {
-    display: flex;
-    justify-content: start;
-    font-size: 3px;
-  }
-  #posicion-quiery div ul li a {
-    display: flex;
-    justify-content: start;
-  }
-}
 .header {
   color: #5f6769;
-  font-size: 1rem;
   background-color: #ffdac7;
   font-family: "Avenir Next LT Pro Bold";
   letter-spacing: 2px;
@@ -146,16 +147,25 @@ aside div p a, .header a:link {
 .header a:hover {
   background-color: #b2b1b9;
 }
-.header #logo {
-  padding: 0px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 100px;
-  height: 100px;
-  border: 2px solid #faeee0 #f0e5cf;
+.header h1 {
+  font-size: 1.5rem;
 }
-.header a:link {
-  text-decoration: none;
+.header h2 {
+  font-size: 1rem;
+}
+.header .distribucion {
+  margin-left: 25rem;
+  font-size: 1.5rem;
+}
+.header .titulo.marca {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.header #logo {
+  width: 20vh;
+  height: 20vh;
+  border: 2px solid #faeee0 #f0e5cf;
 }
 
 * {
@@ -173,12 +183,16 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, .header a:link {
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .section-mercaderia div a, .footer-conteiner .footer-pagos {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -300,83 +314,62 @@ iframe {
   margin-left: 250px;
 }
 
-/*SECCIONES-PLATA-ORO-PIEDRAS inicio*/
-@media screen and (max-width: 1331px) {
-  .para-query {
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 3fr;
-    grid-template-areas: "oro plata" "piedras piedras" "preguntas preguntas";
+.posicion-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0.8em;
+}
+@media screen and (max-width: 480px) {
+  .posicion-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
   }
 }
-.section-mercaderia {
-  justify-content: start;
-  display: grid;
-  grid-template-columns: 3fr;
-  grid-template-rows: 2fr;
-  grid-template-areas: "oro plata preguntas" "piedras piedras preguntas";
-  height: 950px;
+.posicion-container .posicion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.8em;
+  padding: 0.5em;
+  width: 30%;
 }
-.section-mercaderia div a {
-  font-size: 2rem;
+@media screen and (max-width: 480px) {
+  .posicion-container .posicion {
+    margin-left: auto;
+    width: 100%;
+  }
 }
-
-.posicion-1:hover,
-.posicion-2:hover,
-.posicion-3:hover {
-  transform: scale(1.03);
+.posicion-container .posicion img {
+  width: 100%;
 }
-
-#imgs {
-  width: 400px;
-  height: 400px;
-  margin: 20px 25px 5px 70px;
-  border: 2px solid #ffdac7;
-  border-radius: 15px;
+.posicion-container .posicion img:hover {
+  box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
 }
 
-.posicion-1 {
-  grid-area: oro;
-  transition-property: all;
-  transition-duration: 3s;
+.listado-aside {
+  margin: 2em;
+  border: 1px solid #f5c6a5;
+  border-radius: 5px;
 }
-
-.posicion-2 {
-  grid-area: plata;
-  transition-property: all;
-  transition-duration: 3s;
+.listado-aside ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
-
-.posicion-3 {
-  grid-area: piedras;
-  transition-property: all;
-  transition-duration: 3s;
+@media screen and (max-width: 480px) {
+  .listado-aside ul {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  }
 }
-
-.foto-piedra {
-  width: 700px;
-  height: 350px;
-  margin-left: 180px;
-  border: 3px solid #ffdac7;
-  border-radius: 15px;
-}
-
-/*SECCION PREGUNTAS FRECUENTES Y MEDIDAS DE ANILLO*/
-.posicion-4 {
-  grid-area: preguntas;
-  font-size: 26px;
-  font-family: "Roboto Mono", monospace;
-  border: 3px solid #ffdac7;
-  margin-top: 30px;
-  padding-top: 90px;
-  text-align: center;
-  border-radius: 20%;
-  height: 700px;
-}
-.posicion-4 li {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 15px;
+.listado-aside ul li {
+  padding: 1em;
+  font-size: 2em;
 }
 
 * {
@@ -394,12 +387,16 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, .header a:link {
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -469,6 +466,10 @@ html {
   background-color: #faeee0;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -484,31 +485,23 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, .header a:link {
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
 
 /*Estilo del header*/
-@media screen and (max-width: 995px) {
-  #posicion-quiery {
-    display: flex;
-    justify-content: start;
-    font-size: 3px;
-  }
-  #posicion-quiery div ul li a {
-    display: flex;
-    justify-content: start;
-  }
-}
 .header {
   color: #5f6769;
-  font-size: 1rem;
   background-color: #ffdac7;
   font-family: "Avenir Next LT Pro Bold";
   letter-spacing: 2px;
@@ -517,16 +510,25 @@ aside div p a, .header a:link {
 .header a:hover {
   background-color: #b2b1b9;
 }
-.header #logo {
-  padding: 0px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 100px;
-  height: 100px;
-  border: 2px solid #faeee0 #f0e5cf;
+.header h1 {
+  font-size: 1.5rem;
 }
-.header a:link {
-  text-decoration: none;
+.header h2 {
+  font-size: 1rem;
+}
+.header .distribucion {
+  margin-left: 25rem;
+  font-size: 1.5rem;
+}
+.header .titulo.marca {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.header #logo {
+  width: 20vh;
+  height: 20vh;
+  border: 2px solid #faeee0 #f0e5cf;
 }
 
 /*############################## 
@@ -567,63 +569,7 @@ html {
   background-color: #faeee0;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-html {
-  font-size: 15px;
-  scroll-behavior: smooth;
-}
-
-.body {
-  background-color: #faeee0;
-}
-
-aside div p a, .header a:link {
-  color: #707070;
-  text-transform: capitalize;
-}
-
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
-  display: flex;
-  justify-content: center;
-}
-
-/*Estilo del header*/
-@media screen and (max-width: 995px) {
-  #posicion-quiery {
-    display: flex;
-    justify-content: start;
-    font-size: 3px;
-  }
-  #posicion-quiery div ul li a {
-    display: flex;
-    justify-content: start;
-  }
-}
-.header {
-  color: #5f6769;
-  font-size: 1rem;
-  background-color: #ffdac7;
-  font-family: "Avenir Next LT Pro Bold";
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-.header a:hover {
-  background-color: #b2b1b9;
-}
-.header #logo {
-  padding: 0px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 100px;
-  height: 100px;
-  border: 2px solid #faeee0 #f0e5cf;
-}
-.header a:link {
+a:link {
   text-decoration: none;
 }
 
@@ -642,12 +588,77 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, .header a:link {
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del header*/
+.header {
+  color: #5f6769;
+  background-color: #ffdac7;
+  font-family: "Avenir Next LT Pro Bold";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header a:hover {
+  background-color: #b2b1b9;
+}
+.header h1 {
+  font-size: 1.5rem;
+}
+.header h2 {
+  font-size: 1rem;
+}
+.header .distribucion {
+  margin-left: 25rem;
+  font-size: 1.5rem;
+}
+.header .titulo.marca {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.header #logo {
+  width: 20vh;
+  height: 20vh;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #faeee0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -775,12 +786,16 @@ html {
   background-color: #faeee0;
 }
 
-aside div p a, .header a:link {
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos, .section-mercaderia div a {
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -806,6 +821,10 @@ html {
 
 .body {
   background-color: #faeee0;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 .descripcion {
@@ -847,6 +866,10 @@ html {
 
 .body {
   background-color: #faeee0;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 995px) {
