@@ -1,12 +1,24 @@
 @import "../base/lista";
 @import "../base/general";
 @import "../base/extends";
+@import "../base/mixins";
 
 /*PAGINA MEDIDAS*/
 
-#medidas {
+.medidas {
+    @media screen and (width:700px){
+        img {
+            @include flexbox(flex, column wrap, space-around); 
+           width: 100%; 
+        }
+    }
     font-size: 2rem;
     text-align: center;
     color: nth($color, 2);
     margin: 50px;
+    @include flexbox(flex, row wrap, center);
+    
+img {
+    width: 30%;
+}
 }

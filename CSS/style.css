@@ -17,7 +17,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, .style-text, a:link {
   color: #707070;
   text-transform: capitalize;
 }
@@ -46,7 +46,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, .style-text, a:link {
   color: #707070;
   text-transform: capitalize;
 }
@@ -60,12 +60,9 @@ aside div p a, a:link {
 .header {
   color: #5f6769;
   background-color: #ffdac7;
-  font-family: "Avenir Next LT Pro Bold";
-  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
-}
-.header a:hover {
-  background-color: #b2b1b9;
 }
 .header h1 {
   font-size: 1.5rem;
@@ -74,8 +71,13 @@ aside div p a, a:link {
   font-size: 1rem;
 }
 .header .distribucion {
-  margin-left: 25rem;
+  margin-left: 20rem;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+  .header .distribucion ul li a {
+    font-size: 1rem;
+  }
 }
 .header .titulo.marca {
   display: flex;
@@ -126,7 +128,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, .style-text, a:link {
   color: #707070;
   text-transform: capitalize;
 }
@@ -140,12 +142,9 @@ aside div p a, a:link {
 .header {
   color: #5f6769;
   background-color: #ffdac7;
-  font-family: "Avenir Next LT Pro Bold";
-  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
-}
-.header a:hover {
-  background-color: #b2b1b9;
 }
 .header h1 {
   font-size: 1.5rem;
@@ -154,8 +153,13 @@ aside div p a, a:link {
   font-size: 1rem;
 }
 .header .distribucion {
-  margin-left: 25rem;
+  margin-left: 20rem;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+  .header .distribucion ul li a {
+    font-size: 1rem;
+  }
 }
 .header .titulo.marca {
   display: flex;
@@ -187,7 +191,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, .style-text, a:link {
   color: #707070;
   text-transform: capitalize;
 }
@@ -204,9 +208,19 @@ iframe {
 }
 
 .footer-conteiner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   background-color: #d6d2c4;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 480px) {
+  .footer-conteiner {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  }
 }
 .footer-conteiner .footer-pagos {
   color: #707070;
@@ -215,24 +229,40 @@ iframe {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 480px) {
+  .footer-conteiner .footer-pagos {
+    margin-left: auto;
+    width: 100%;
+  }
+}
 .footer-conteiner .footer-redes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
   color: #3c4245;
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
-  justify-content: center;
-  letter-spacing: 2px;
-  display: flex;
-  justify-content: space-evenly;
 }
 .footer-conteiner .footer-envios {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   color: #707070;
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-family: "Roboto Mono", monospace;
   text-transform: capitalize;
-  justify-content: space-around;
+}
+@media screen and (max-width: 760px) {
+  .footer-conteiner .footer-envios {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .footer-conteiner #envios {
-  margin-top: 90px;
+  margin-top: 4rem;
+  text-align: center;
 }
 
 .instagram {
@@ -271,7 +301,6 @@ iframe {
   color: #0edabe;
   text-align: center;
   display: block;
-  align-content: center;
   margin: 20px 10px 0px 50px;
 }
 
@@ -296,22 +325,33 @@ iframe {
     color: #34c2aa;
   }
 }
-#carrusel {
-  width: 700px;
-  height: 710px;
-  align-items: center;
-  margin-bottom: 80px;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-#carrusel #foto-carrusel {
-  align-content: center;
-  margin-left: 320px;
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
 }
-#carrusel #texto-carrusel {
-  color: black;
-  font-size: 1, 2rem;
-  background-color: #dfcdc3;
-  width: 60%;
-  margin-left: 250px;
+
+.body {
+  background-color: #faeee0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+aside div p a, .style-text, a:link {
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+  display: flex;
+  justify-content: center;
 }
 
 .posicion-container {
@@ -350,6 +390,11 @@ iframe {
   -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
 }
 
+.style-text {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
 .listado-aside {
   margin: 2em;
   border: 1px solid #f5c6a5;
@@ -360,11 +405,11 @@ iframe {
   flex-flow: row nowrap;
   justify-content: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 670px) {
   .listado-aside ul {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
 .listado-aside ul li {
@@ -391,7 +436,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, a:link, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
@@ -408,9 +453,19 @@ iframe {
 }
 
 .footer-conteiner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   background-color: #d6d2c4;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 480px) {
+  .footer-conteiner {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  }
 }
 .footer-conteiner .footer-pagos {
   color: #707070;
@@ -419,24 +474,40 @@ iframe {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 480px) {
+  .footer-conteiner .footer-pagos {
+    margin-left: auto;
+    width: 100%;
+  }
+}
 .footer-conteiner .footer-redes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
   color: #3c4245;
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
-  justify-content: center;
-  letter-spacing: 2px;
-  display: flex;
-  justify-content: space-evenly;
 }
 .footer-conteiner .footer-envios {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   color: #707070;
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-family: "Roboto Mono", monospace;
   text-transform: capitalize;
-  justify-content: space-around;
+}
+@media screen and (max-width: 760px) {
+  .footer-conteiner .footer-envios {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .footer-conteiner #envios {
-  margin-top: 90px;
+  margin-top: 4rem;
+  text-align: center;
 }
 
 .instagram {
@@ -489,7 +560,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, a:link, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
@@ -503,12 +574,9 @@ aside div p a, a:link {
 .header {
   color: #5f6769;
   background-color: #ffdac7;
-  font-family: "Avenir Next LT Pro Bold";
-  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
-}
-.header a:hover {
-  background-color: #b2b1b9;
 }
 .header h1 {
   font-size: 1.5rem;
@@ -517,8 +585,13 @@ aside div p a, a:link {
   font-size: 1rem;
 }
 .header .distribucion {
-  margin-left: 25rem;
+  margin-left: 20rem;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+  .header .distribucion ul li a {
+    font-size: 1rem;
+  }
 }
 .header .titulo.marca {
   display: flex;
@@ -592,7 +665,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, a:link, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
@@ -606,12 +679,9 @@ aside div p a, a:link {
 .header {
   color: #5f6769;
   background-color: #ffdac7;
-  font-family: "Avenir Next LT Pro Bold";
-  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
-}
-.header a:hover {
-  background-color: #b2b1b9;
 }
 .header h1 {
   font-size: 1.5rem;
@@ -620,8 +690,13 @@ aside div p a, a:link {
   font-size: 1rem;
 }
 .header .distribucion {
-  margin-left: 25rem;
+  margin-left: 20rem;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+  .header .distribucion ul li a {
+    font-size: 1rem;
+  }
 }
 .header .titulo.marca {
   display: flex;
@@ -653,7 +728,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, a:link, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
@@ -670,9 +745,19 @@ iframe {
 }
 
 .footer-conteiner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   background-color: #d6d2c4;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 480px) {
+  .footer-conteiner {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  }
 }
 .footer-conteiner .footer-pagos {
   color: #707070;
@@ -681,24 +766,40 @@ iframe {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 480px) {
+  .footer-conteiner .footer-pagos {
+    margin-left: auto;
+    width: 100%;
+  }
+}
 .footer-conteiner .footer-redes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
   color: #3c4245;
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
-  justify-content: center;
-  letter-spacing: 2px;
-  display: flex;
-  justify-content: space-evenly;
 }
 .footer-conteiner .footer-envios {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   color: #707070;
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-family: "Roboto Mono", monospace;
   text-transform: capitalize;
-  justify-content: space-around;
+}
+@media screen and (max-width: 760px) {
+  .footer-conteiner .footer-envios {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .footer-conteiner #envios {
-  margin-top: 90px;
+  margin-top: 4rem;
+  text-align: center;
 }
 
 .instagram {
@@ -790,7 +891,7 @@ a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link {
+aside div p a, a:link, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
@@ -801,11 +902,25 @@ aside div p a, a:link {
 }
 
 /*PAGINA MEDIDAS*/
-#medidas {
+.medidas {
   font-size: 2rem;
   text-align: center;
   color: #5f6769;
   margin: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+@media screen and (width: 700px) {
+  .medidas img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+.medidas img {
+  width: 30%;
 }
 
 * {

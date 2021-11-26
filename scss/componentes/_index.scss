@@ -1,3 +1,10 @@
+@import "../base/lista";
+@import "../base/general";
+@import "../base/extends";
+@import "../base/mixins";
+
+
+
 .posicion-container{
     @media screen and (max-width:480px){
         @include flexbox(flex, column wrap, space-around);
@@ -17,21 +24,30 @@
         width:30%;
         img{
             width:100%;
+
             &:hover{
                 box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
                 -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
             }
+            
         }
     }
 }
+
+.style-text{
+    font-size: 2rem;
+    text-decoration: none;
+    @extend %texto;             
+    }
+    
 .listado-aside{
     margin:2em;
     border: 1px solid nth($color, 7);
     border-radius: 5px;
     ul{
-        @media screen and (max-width:480px){
-            @include flexbox(flex, column wrap, space-around);
+        @media screen and (max-width:670px){
+            @include flexbox(flex, column wrap, center);
         }
         @include flexbox(flex, row nowrap, center);
         li{

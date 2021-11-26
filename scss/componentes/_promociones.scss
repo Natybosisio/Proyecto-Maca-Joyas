@@ -28,7 +28,6 @@
     color: nth($color, 13);
     text-align: center;
     display: block;
-    align-content: center;
     margin: 20px 10px 0px 50px;
 }
 
@@ -58,22 +57,25 @@
     }
 }
 
-#carrusel {
-    width: 700px;
-    height: 710px;
-    align-items: center;
-    margin-bottom: 80px;
 
-    #foto-carrusel {
-        align-content: center;
-        margin-left: 320px;
-    }
 
-    #texto-carrusel {
-        color: nth($color, 15);
-        font-size: 1, 2rem;
-        background-color: nth($color, 5);
-        width: 60%;
-        margin-left: 250px;
-    }
-}
+
+// #carrusel {
+//     width: 700px;
+//     height: 710px;
+//     align-items: center;
+//     margin-bottom: 80px;
+
+//     #foto-carrusel {
+//         align-content: center;
+//         margin-left: 320px;
+//     }
+
+//     #texto-carrusel {
+//         color: nth($color, 15);
+//         font-size: 1, 2rem;
+//         background-color: nth($color, 5);
+//         width: 60%;
+//         margin-left: 250px;
+//     }
+// }
