@@ -10,19 +10,19 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, .style-text, a:link {
+a, .style-text, .titulo-marca, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -39,56 +39,55 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, .style-text, a:link {
+a, .style-text, .titulo-marca, a:link {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
 
 /*Estilo del header*/
 .header {
-  color: #5f6769;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   background-color: #ffdac7;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
 }
-.header h1 {
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  width: 10vh;
+  height: 10vh;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+.titulo-marca h1 {
+  font-size: 2rem;
+}
+.titulo-marca h2 {
   font-size: 1.5rem;
 }
-.header h2 {
-  font-size: 1rem;
-}
-.header .distribucion {
+
+.distribucion {
   margin-left: 20rem;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 960px) {
-  .header .distribucion ul li a {
+  .distribucion ul li a {
     font-size: 1rem;
   }
 }
-.header .titulo.marca {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-.header #logo {
-  width: 20vh;
-  height: 20vh;
-  border: 2px solid #faeee0 #f0e5cf;
-}
 
 * {
   margin: 0;
@@ -102,7 +101,7 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
@@ -121,55 +120,54 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, .style-text, a:link {
+a, .style-text, .titulo-marca {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
 
 /*Estilo del header*/
 .header {
-  color: #5f6769;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   background-color: #ffdac7;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
 }
-.header h1 {
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  width: 10vh;
+  height: 10vh;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+.titulo-marca h1 {
+  font-size: 2rem;
+}
+.titulo-marca h2 {
   font-size: 1.5rem;
 }
-.header h2 {
-  font-size: 1rem;
-}
-.header .distribucion {
+
+.distribucion {
   margin-left: 20rem;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 960px) {
-  .header .distribucion ul li a {
+  .distribucion ul li a {
     font-size: 1rem;
   }
-}
-.header .titulo.marca {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-.header #logo {
-  width: 20vh;
-  height: 20vh;
-  border: 2px solid #faeee0 #f0e5cf;
 }
 
 * {
@@ -184,19 +182,19 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, .style-text, a:link {
+a, .style-text, .titulo-marca {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -213,6 +211,7 @@ iframe {
   justify-content: center;
   background-color: #d6d2c4;
   width: 100%;
+  height: auto;
   margin-top: 2rem;
 }
 @media screen and (max-width: 480px) {
@@ -297,11 +296,19 @@ iframe {
 /*PAGINA PROMOCIONES*/
 #titulo-promo {
   font-family: "Roboto Mono", monospace;
-  font-size: 50px;
+  font-size: 3rem;
   color: #0edabe;
   text-align: center;
   display: block;
-  margin: 20px 10px 0px 50px;
+  margin: 20px 10px 0px 35px;
+}
+@media screen and (max-width: 760px) {
+  #titulo-promo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
 }
 
 #titulo-promo:hover {
@@ -325,6 +332,28 @@ iframe {
     color: #34c2aa;
   }
 }
+.carrusel {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 760px) {
+  .carrusel {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+}
+.carrusel h5 {
+  margin-bottom: 35rem;
+  color: black;
+  background-color: #88e0c3;
+}
+.carrusel p {
+  color: black;
+  background-color: #88e0c3;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -337,19 +366,19 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, .style-text, a:link {
+a, .style-text, .titulo-marca {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -429,19 +458,19 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link, .style-text {
+a, .titulo-marca, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -458,6 +487,7 @@ iframe {
   justify-content: center;
   background-color: #d6d2c4;
   width: 100%;
+  height: auto;
   margin-top: 2rem;
 }
 @media screen and (max-width: 480px) {
@@ -534,7 +564,7 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
@@ -553,55 +583,54 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link, .style-text {
+a, .titulo-marca, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
 
 /*Estilo del header*/
 .header {
-  color: #5f6769;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   background-color: #ffdac7;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
 }
-.header h1 {
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  width: 10vh;
+  height: 10vh;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+.titulo-marca h1 {
+  font-size: 2rem;
+}
+.titulo-marca h2 {
   font-size: 1.5rem;
 }
-.header h2 {
-  font-size: 1rem;
-}
-.header .distribucion {
+
+.distribucion {
   margin-left: 20rem;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 960px) {
-  .header .distribucion ul li a {
+  .distribucion ul li a {
     font-size: 1rem;
   }
-}
-.header .titulo.marca {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-.header #logo {
-  width: 20vh;
-  height: 20vh;
-  border: 2px solid #faeee0 #f0e5cf;
 }
 
 /*############################## 
@@ -639,7 +668,7 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
@@ -658,55 +687,54 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link, .style-text {
+a, .titulo-marca, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
 
 /*Estilo del header*/
 .header {
-  color: #5f6769;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   background-color: #ffdac7;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
 }
-.header h1 {
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  width: 10vh;
+  height: 10vh;
+  border: 2px solid #faeee0 #f0e5cf;
+}
+
+.titulo-marca h1 {
+  font-size: 2rem;
+}
+.titulo-marca h2 {
   font-size: 1.5rem;
 }
-.header h2 {
-  font-size: 1rem;
-}
-.header .distribucion {
+
+.distribucion {
   margin-left: 20rem;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 960px) {
-  .header .distribucion ul li a {
+  .distribucion ul li a {
     font-size: 1rem;
   }
-}
-.header .titulo.marca {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-.header #logo {
-  width: 20vh;
-  height: 20vh;
-  border: 2px solid #faeee0 #f0e5cf;
 }
 
 * {
@@ -721,19 +749,19 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link, .style-text {
+a, .titulo-marca, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
@@ -750,6 +778,7 @@ iframe {
   justify-content: center;
   background-color: #d6d2c4;
   width: 100%;
+  height: auto;
   margin-top: 2rem;
 }
 @media screen and (max-width: 480px) {
@@ -884,43 +913,50 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-aside div p a, a:link, .style-text {
+a, .titulo-marca, .style-text {
   color: #707070;
   text-transform: capitalize;
 }
 
-.link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .informacion-personal, .footer-conteiner .footer-pagos {
   display: flex;
   justify-content: center;
 }
 
 /*PAGINA MEDIDAS*/
 .medidas {
-  font-size: 2rem;
-  text-align: center;
-  color: #5f6769;
-  margin: 50px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  color: #5f6769;
 }
-@media screen and (width: 700px) {
+@media screen and (max-width: 750px) {
+  .medidas h2 {
+    font-size: 1.5rem;
+  }
   .medidas img {
+    width: 100%;
+    margin-left: 5vh;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: center;
+  }
+  .medidas img:hover {
+    scale: 2;
+    transition-duration: 3s;
   }
 }
 .medidas img {
-  width: 30%;
+  width: 40%;
 }
 
 * {
@@ -935,7 +971,7 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
@@ -980,58 +1016,59 @@ html {
 }
 
 .body {
-  background-color: #faeee0;
+  background-color: nth #3c4245, #5f6769, #707070, #b2b1b9, #dfcdc3, #faeee0 #f0e5cf, #f5c6a5, #ffdac7, #e9768f, #f9d5a7, peachpuff, #d6d2c4, #0edabe, #ddeff3, black, #3eaa93, #21fdce, #88e0c3, #469987, #34c2aa, #fc9fbb, #f88bac, #f5618d, #ee316a, #ff7878, #f3f0d7, #cee5d0, 5;
 }
 
 a:link {
   text-decoration: none;
 }
 
-@media screen and (max-width: 995px) {
-  #imgs-productos {
-    width: 100px;
-    height: 80px;
-    border: 2px solid #ffdac7;
-    border-radius: 15px;
-  }
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+.container .posicion-item {
+  display: flex;
+  flex-direction: column;
+  width: 15vh;
+}
+
 #titulo-ppal-productos {
   font-size: 2.5rem;
   color: #ffdac7;
   background-color: #b2b1b9;
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 #titulo-joyas {
   font-family: monospace;
   text-transform: uppercase;
-  font-size: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   color: #707070;
   border: 2px solid #707070;
   background-color: #ffdac7;
 }
 
-.distancia-img {
-  margin-top: 30px;
-}
-
 #imgs-productos {
-  width: 200px;
-  height: 180px;
+  width: 12vh;
+  height: 12vh;
   border: 2px solid #ffdac7;
-  border-radius: 15px;
+  border-radius: 1rem;
+  margin: 0.8rem;
 }
 
-.link-productos {
+aside .link-productos {
   font-size: 3rem;
   font-family: "Roboto Mono", monospace;
   text-align: center;
   color: #5f6769;
   /*####No me lo modifica*/
   border: 2px solid #5f6769;
-  border-radius: 15px;
+  border-radius: 1rem;
   background-color: #ffdac7;
   width: 30%;
   margin: 20px 20px 20px 150px;

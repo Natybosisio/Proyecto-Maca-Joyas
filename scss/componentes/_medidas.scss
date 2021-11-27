@@ -6,19 +6,25 @@
 /*PAGINA MEDIDAS*/
 
 .medidas {
-    @media screen and (width:700px){
+    @media screen and (max-width:750px){
+        h2 {font-size: 1.5rem;}
         img {
-            @include flexbox(flex, column wrap, space-around); 
-           width: 100%; 
+            width: 100%;
+            margin-left: 5vh;
+            @include flexbox(flex, column wrap, center); 
+        &:hover{
+            scale: 2;
+            transition-duration: 3s;
         }
+            }
     }
+    @include flexbox (flex, row wrap, center);
     font-size: 2rem;
     text-align: center;
     color: nth($color, 2);
-    margin: 50px;
-    @include flexbox(flex, row wrap, center);
+    
     
 img {
-    width: 30%;
+    width: 40%;
 }
 }

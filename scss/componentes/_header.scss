@@ -6,24 +6,30 @@
 /*Estilo del header*/
 
 
-.header {
-  color: nth($color, 2);
-  background-color: nth($color, 8);
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
+.header { 
+@include flexbox(flex, row wrap, flex-start);
+background-color: nth($color, 8);
+}
 
- 
-  h1 {
+ #logo {
+   display: flex;
+   flex-direction: column;
+   width: 10vh;
+   height: 10vh;
+   border: 2px solid nth($color, 6);
+  } 
+
+  .titulo-marca{
+    @extend %texto;
+   h1{font-size: 2rem;
+   } 
+   h2{
     font-size: 1.5rem;
-    }
-    h2{
-      font-size: 1rem;
-    }
+   }
+  }
 
-  .distribucion{
+  .distribucion {
     @media screen and (max-width: 960px){
-      
       ul {
         li{
             a{ font-size: 1rem;
@@ -33,18 +39,11 @@
     }
     margin-left: 20rem;
     font-size: 1.5rem;
-    }
-
-  .titulo.marca {
-    @include flexbox(flex, row nowrap, center);
-  }
-
-  #logo {
-    width: 20vh;
-    height: 20vh;
-    border: 2px solid nth($color, 6);
-  }
+   }
 
  
-}
+
+
+
+
 

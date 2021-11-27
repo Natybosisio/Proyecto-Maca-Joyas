@@ -23,12 +23,16 @@
 /*PAGINA PROMOCIONES*/
 
 #titulo-promo {
+    @media screen and (max-width:760px){
+        @include flexbox(flex, column wrap, center);
+        font-size: 1.5rem;
+    }
     font-family: "Roboto Mono", monospace;
-    font-size: 50px;
+    font-size: 3rem;
     color: nth($color, 13);
     text-align: center;
     display: block;
-    margin: 20px 10px 0px 50px;
+    margin: 20px 10px 0px 35px;
 }
 
 #titulo-promo:hover {
@@ -57,25 +61,26 @@
     }
 }
 
+.carrusel{
+    @media screen and (max-width:760px){
+        @include flexbox(flex, column wrap, center);
+    
+    }
 
+    @include flexbox(flex, row wrap, center);
+    
 
-
-// #carrusel {
-//     width: 700px;
-//     height: 710px;
-//     align-items: center;
-//     margin-bottom: 80px;
-
-//     #foto-carrusel {
-//         align-content: center;
-//         margin-left: 320px;
-//     }
-
-//     #texto-carrusel {
-//         color: nth($color, 15);
-//         font-size: 1, 2rem;
-//         background-color: nth($color, 5);
-//         width: 60%;
-//         margin-left: 250px;
-//     }
-// }
+   h5 {
+    margin-bottom: 35rem;
+    
+    color: nth($color,15 );
+    background-color:nth($color,18 ) ;
+}
+p{
+    color: nth($color,15 );
+    background-color:nth($color,18 ) ;
+   
+    
+}
+   }
+   

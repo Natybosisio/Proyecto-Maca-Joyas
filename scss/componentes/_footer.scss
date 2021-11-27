@@ -19,9 +19,11 @@ iframe {
    
     background-color: nth($color, 12);
     width: 100%;
+    height: auto;
     margin-top: 2rem;
 
     .footer-pagos {
+        
         @media screen and (max-width:480px){
             margin-left: auto;
             width: 100%;}
