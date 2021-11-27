@@ -45,6 +45,7 @@
     margin:2em;
     border: 1px solid nth($color, 7);
     border-radius: 5px;
+    text-align: center;
     ul{
         @media screen and (max-width:670px){
             @include flexbox(flex, column wrap, center);
