@@ -49,6 +49,13 @@
 }
 
 aside {
+  @media screen and (max-width: 780px){
+    a {font-size:2rem ;
+    } }
+  @media screen and (max-width: 460px){
+      a {font-size:1rem ;
+      } 
+  }
   .link-productos {
     font-size: 3rem;
     font-family: "Roboto Mono", monospace;

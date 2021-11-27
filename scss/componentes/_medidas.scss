@@ -6,25 +6,30 @@
 /*PAGINA MEDIDAS*/
 
 .medidas {
-    @media screen and (max-width:750px){
-        h2 {font-size: 1.5rem;}
-        img {
-            width: 100%;
-            margin-left: 5vh;
-            @include flexbox(flex, column wrap, center); 
-        &:hover{
-            scale: 2;
-            transition-duration: 3s;
-        }
-            }
+    @include flexbox(flex, row wrap, center);
+     
+    
     }
-    @include flexbox (flex, row wrap, center);
-    font-size: 2rem;
+    img {
+        width: 40%;
+        margin-left: 1rem;
+        }                   
+       
+ .posicion-resp{
+         @media screen and (max-width:750px){
+             img {
+                 width: 90%;
+                 align-items: center;
+                 margin: 1rem;}
+                
+              
+              h2{ font-size: 1rem; }   
+                
+                }
+
+   @include flexbox (flex, row wrap, center);
+ 
+   h2 {font-size: 2rem;
     text-align: center;
-    color: nth($color, 2);
-    
-    
-img {
-    width: 40%;
-}
-}
+    color: nth($color, 2);}       
+    }

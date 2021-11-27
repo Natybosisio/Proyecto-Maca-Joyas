@@ -1,4 +1,4 @@
-@import "lista";
+@import "../base/lista";
 
 * {
     margin: 0;
@@ -12,7 +12,7 @@ html{
 }
 
 .body {
-    background-color:nth ($color,5);
+    background-color:rgb(250, 238, 224);
 }
 
 a:link {
