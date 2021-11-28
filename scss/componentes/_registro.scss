@@ -2,26 +2,36 @@
 @import "../base/general";
 @import "../componentes/header";
 @import "../componentes/footer";
+@import "../base/mixins";
 
 /*PERFIL*/
+.conteiner{
+   @include flexbox(flex, row wrap, center);
+   width: 50%;
 
-.Question-registro {
+   .posicion{
+      width: 50%;
+      display:flex;
+      flex-direction:column;
+      align-items: center;}
+}
+.Question {
    color: nth($color, 3);
    font-size: 0.98rem;
-   margin: 50px 10px 20px 240px;
+   
 }
 
 .titulo-registrate {
    font-family: "Roboto Mono", monospace;
-   font-size: 20px;
+   font-size: 1.2rem;
    font-weight: bold;
    color: nth($color, 24);
-   margin: 10px 10px 20px 252px;
    text-transform: uppercase;
+   
 
-   .titulo-registrate:hover {
+      &:hover {
       animation: registro 2s;
-   }
+      }
 
    @keyframes registro {
       0% {
@@ -49,22 +59,14 @@
 .registrate {
    font-size: 1rem;
    color: nth($color, 9);
-   margin: 30px;
-   display: block;
    font-family: "Roboto Mono", monospace;
+
 
    .boton {
       background-color: nth($color, 4);
       color: nth($color, 24);
-      padding-left: 150px;
-      padding-right: 150px;
-      position: relative;
-      left: 20%;
-   }
+     
+
+    }
 }
 
-.Question-inicia {
-   color: nth($color, 3);
-   font-size: 0.98rem;
-   margin: 50px 10px 20px 260px;
-}

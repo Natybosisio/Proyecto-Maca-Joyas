@@ -7,24 +7,27 @@
 
 
 .header { 
-@include flexbox(flex, row wrap, flex-start);
 background-color: nth($color, 8);
 }
 
  #logo {
-   display: flex;
-   flex-direction: column;
-   width: 10vh;
-   height: 10vh;
-   border: 2px solid nth($color, 6);
+   @media screen and (max-width: 500px){
+     width: 40%;}
+
+   width: 20%;
   } 
 
   .titulo-marca{
+    @media screen and (max-width: 500px){
+      h1{font-size: 1rem}
+      h2{font-size: 0.8rem}
+    }
     @extend %texto;
    h1{font-size: 2rem;
    } 
    h2{
     font-size: 1.5rem;
+  
    }
   }
 
@@ -37,7 +40,6 @@ background-color: nth($color, 8);
         }
       }
     }
-    margin-left: 20rem;
     font-size: 1.5rem;
    }
 

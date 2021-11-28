@@ -58,20 +58,26 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
 
 /*Estilo del header*/
 .header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
   background-color: #ffdac7;
 }
 
 #logo {
-  display: flex;
-  flex-direction: column;
-  width: 10vh;
-  height: 10vh;
-  border: 2px solid #faeee0 #f0e5cf;
+  width: 20%;
+}
+@media screen and (max-width: 500px) {
+  #logo {
+    width: 40%;
+  }
 }
 
+@media screen and (max-width: 500px) {
+  .titulo-marca h1 {
+    font-size: 1rem;
+  }
+  .titulo-marca h2 {
+    font-size: 0.8rem;
+  }
+}
 .titulo-marca h1 {
   font-size: 2rem;
 }
@@ -80,7 +86,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
 }
 
 .distribucion {
-  margin-left: 20rem;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 960px) {
@@ -139,20 +144,26 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
 
 /*Estilo del header*/
 .header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
   background-color: #ffdac7;
 }
 
 #logo {
-  display: flex;
-  flex-direction: column;
-  width: 10vh;
-  height: 10vh;
-  border: 2px solid #faeee0 #f0e5cf;
+  width: 20%;
+}
+@media screen and (max-width: 500px) {
+  #logo {
+    width: 40%;
+  }
 }
 
+@media screen and (max-width: 500px) {
+  .titulo-marca h1 {
+    font-size: 1rem;
+  }
+  .titulo-marca h2 {
+    font-size: 0.8rem;
+  }
+}
 .titulo-marca h1 {
   font-size: 2rem;
 }
@@ -161,7 +172,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
 }
 
 .distribucion {
-  margin-left: 20rem;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 960px) {
@@ -603,20 +613,26 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
 
 /*Estilo del header*/
 .header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
   background-color: #ffdac7;
 }
 
 #logo {
-  display: flex;
-  flex-direction: column;
-  width: 10vh;
-  height: 10vh;
-  border: 2px solid #faeee0 #f0e5cf;
+  width: 20%;
+}
+@media screen and (max-width: 500px) {
+  #logo {
+    width: 40%;
+  }
 }
 
+@media screen and (max-width: 500px) {
+  .titulo-marca h1 {
+    font-size: 1rem;
+  }
+  .titulo-marca h2 {
+    font-size: 0.8rem;
+  }
+}
 .titulo-marca h1 {
   font-size: 2rem;
 }
@@ -625,7 +641,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
 }
 
 .distribucion {
-  margin-left: 20rem;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 960px) {
@@ -707,20 +722,26 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
 
 /*Estilo del header*/
 .header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
   background-color: #ffdac7;
 }
 
 #logo {
-  display: flex;
-  flex-direction: column;
-  width: 10vh;
-  height: 10vh;
-  border: 2px solid #faeee0 #f0e5cf;
+  width: 20%;
+}
+@media screen and (max-width: 500px) {
+  #logo {
+    width: 40%;
+  }
 }
 
+@media screen and (max-width: 500px) {
+  .titulo-marca h1 {
+    font-size: 1rem;
+  }
+  .titulo-marca h2 {
+    font-size: 0.8rem;
+  }
+}
 .titulo-marca h1 {
   font-size: 2rem;
 }
@@ -729,7 +750,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
 }
 
 .distribucion {
-  margin-left: 20rem;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 960px) {
@@ -845,21 +865,32 @@ iframe {
 }
 
 /*PERFIL*/
-.Question-registro {
+.conteiner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 50%;
+}
+.conteiner .posicion {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Question {
   color: #707070;
   font-size: 0.98rem;
-  margin: 50px 10px 20px 240px;
 }
 
 .titulo-registrate {
   font-family: "Roboto Mono", monospace;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #ee316a;
-  margin: 10px 10px 20px 252px;
   text-transform: uppercase;
 }
-.titulo-registrate .titulo-registrate:hover {
+.titulo-registrate:hover {
   animation: registro 2s;
 }
 @keyframes registro {
@@ -883,23 +914,11 @@ iframe {
 .registrate {
   font-size: 1rem;
   color: #e9768f;
-  margin: 30px;
-  display: block;
   font-family: "Roboto Mono", monospace;
 }
 .registrate .boton {
   background-color: #b2b1b9;
   color: #ee316a;
-  padding-left: 150px;
-  padding-right: 150px;
-  position: relative;
-  left: 20%;
-}
-
-.Question-inicia {
-  color: #707070;
-  font-size: 0.98rem;
-  margin: 50px 10px 20px 260px;
 }
 
 * {
@@ -1018,7 +1037,7 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
   -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
 }
 .descripcion .informacion-personal {
-  width: 70%;
+  width: 60%;
   margin-left: 18%;
   padding: 2.5rem;
   margin-top: 6rem;
