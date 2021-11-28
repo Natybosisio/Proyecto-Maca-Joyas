@@ -5,20 +5,20 @@
 @import "../base/mixins";
 
 /*PERFIL*/
-.conteiner{
+.conteiner {
    @include flexbox(flex, row wrap, center);
    width: 50%;
 
-   .posicion{
+   .posicion {
       width: 50%;
-      display:flex;
-      flex-direction:column;
-      align-items: center;}
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
 }
 .Question {
    color: nth($color, 3);
    font-size: 0.98rem;
-   
 }
 
 .titulo-registrate {
@@ -27,11 +27,10 @@
    font-weight: bold;
    color: nth($color, 24);
    text-transform: uppercase;
-   
 
-      &:hover {
+   &:hover {
       animation: registro 2s;
-      }
+   }
 
    @keyframes registro {
       0% {
@@ -61,12 +60,8 @@
    color: nth($color, 9);
    font-family: "Roboto Mono", monospace;
 
-
    .boton {
       background-color: nth($color, 4);
       color: nth($color, 24);
-     
-
-    }
+   }
 }
-

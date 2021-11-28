@@ -649,10 +649,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .info
   }
 }
 
-/*############################## 
-no encuentro como separar los items dentro 
-del area (lo hice con br y pading, no se si
-es correcto)*/
 #titulo-faq {
   font-size: 3rem;
   text-align: center;

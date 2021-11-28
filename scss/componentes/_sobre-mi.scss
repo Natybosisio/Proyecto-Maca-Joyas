@@ -5,15 +5,14 @@
 
 .descripcion {
     @include flexbox(flex, row wrap, center);
-   
-   .nombre{
-       font-size: 2rem;
-       text-transform: capitalize;
-       text-align: center;
-       background-color: nth($color, 14);
-       margin-top: 3rem;
 
-   }
+    .nombre {
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+        background-color: nth($color, 14);
+        margin-top: 3rem;
+    }
     #foto {
         width: 30vh;
         height: 50vh;
@@ -21,11 +20,11 @@
         border: 5px solid nth($color, 8);
         margin-top: 0.5rem;
 
-        &:hover{
+        &:hover {
             box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
             -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);}
-     
+            -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+        }
     }
 
     .informacion-personal {
@@ -41,6 +40,4 @@
         font-family: "Roboto Mono" monospace;
         @extend %centrado;
     }
-
-
 }

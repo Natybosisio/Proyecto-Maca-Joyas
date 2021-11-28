@@ -3,21 +3,18 @@
 
 // estilos para todos los productos
 
-
-.container{
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- justify-content: space-around;
-
- .posicion-item{ 
+.container {
   display: flex;
-  flex-direction: column;
-  width: 15vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
- }
+  .posicion-item {
+    display: flex;
+    flex-direction: column;
+    width: 15vh;
+  }
 }
-
 
 #titulo-ppal-productos {
   font-size: 2.5rem;
@@ -40,23 +37,24 @@
   background-color: nth($color, 8);
 }
 
-
 #imgs-productos {
   width: 100%;
-  height:100%;
+  height: 100%;
   border: 2px solid nth($color, 8);
   border-radius: 1rem;
   margin: 1rem;
-  
 }
 
 aside {
-  @media screen and (max-width: 780px){
-    a {font-size:2rem ;
-    } }
-  @media screen and (max-width: 460px){
-      a {font-size:1rem ;
-      } 
+  @media screen and (max-width: 780px) {
+    a {
+      font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 460px) {
+    a {
+      font-size: 1rem;
+    }
   }
   .link-productos {
     font-size: 3rem;
@@ -69,12 +67,9 @@ aside {
     width: 30%;
     @extend %centrado;
     margin-left: 0.5rem;
- 
-   
   }
-  
-    }
+}
 
-   a {
-      @extend %texto;
-    }
+a {
+  @extend %texto;
+}

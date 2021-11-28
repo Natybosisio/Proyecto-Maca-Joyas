@@ -3,19 +3,19 @@
 * {
     margin: 0;
     padding: 0;
-    list-style:none;
-} 
+    list-style: none;
+}
 
-html{
+html {
     font-size: 15px;
     scroll-behavior: smooth;
 }
 
 .body {
-    background-color:rgb(250, 238, 224);
+    background-color: rgb(250, 238, 224);
 }
 
 a:link {
     text-decoration: none;
     @extend %texto;
-  }
+}

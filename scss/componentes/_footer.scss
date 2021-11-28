@@ -11,30 +11,27 @@ iframe {
 }
 
 .footer-conteiner {
-    @media screen and (max-width:480px){
+    @media screen and (max-width: 480px) {
         @include flexbox(flex, column wrap, space-around);
-    
     }
     @include flexbox(flex, row wrap, center);
-   
+
     background-color: nth($color, 12);
     width: 100%;
     height: auto;
     margin-top: 2rem;
 
     .footer-pagos {
-        
-        @media screen and (max-width:480px){
+        @media screen and (max-width: 480px) {
             margin-left: auto;
-            width: 100%;}
+            width: 100%;
+        }
         color: nth($color, 3);
         font-family: "Roboto Mono", monospace;
         font-size: 1.5rem;
         text-transform: uppercase;
         @extend %centrado;
         margin-bottom: 10px;
-        
-        
     }
 
     .footer-redes {
@@ -42,10 +39,10 @@ iframe {
         color: nth($color, 1);
         font-family: "Roboto Mono", monospace;
         font-size: 1rem;
-        }
+    }
 
     .footer-envios {
-        @media screen and (max-width:760px){
+        @media screen and (max-width: 760px) {
             @include flexbox(flex, column wrap, center);
             align-items: center;
         }
@@ -54,8 +51,6 @@ iframe {
         font-size: 1rem;
         font-family: "Roboto Mono", monospace;
         text-transform: capitalize;
-   
-       
     }
     #envios {
         margin-top: 4rem;

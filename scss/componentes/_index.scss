@@ -3,143 +3,54 @@
 @import "../base/extends";
 @import "../base/mixins";
 
-
-
-.posicion-container{
-    @media screen and (max-width:480px){
+.posicion-container {
+    @media screen and (max-width: 480px) {
         @include flexbox(flex, column wrap, space-around);
     }
     @include flexbox(flex, row wrap, center);
     margin: 0.8em;
-    .posicion{
-        display:flex;
-        flex-direction:column;
+    .posicion {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         margin: 0.8em;
         padding: 0.5em;
-        @media screen and (max-width:480px){
+        @media screen and (max-width: 480px) {
             margin-left: auto;
             width: 100%;
         }
-        width:30%;
-        img{
-            width:100%;
+        width: 30%;
+        img {
+            width: 100%;
 
-            &:hover{
+            &:hover {
                 box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
                 -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
             }
-            
         }
     }
 }
 
-.style-text{
+.style-text {
     font-size: 2rem;
     text-decoration: none;
-    @extend %texto;             
-    }
-    
-.listado-aside{
-    margin:2em;
+    @extend %texto;
+}
+
+.listado-aside {
+    margin: 2em;
     border: 1px solid nth($color, 7);
     border-radius: 5px;
     text-align: center;
-    ul{
-        @media screen and (max-width:670px){
+    ul {
+        @media screen and (max-width: 670px) {
             @include flexbox(flex, column wrap, center);
         }
         @include flexbox(flex, row nowrap, center);
-        li{
-            padding:1em;
+        li {
+            padding: 1em;
             font-size: 2em;
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .section-mercaderia {
-//     display: flex;
-//     flex-flow: row wrap;
-//     justify-content: space-between;
-         
-       
-    
-//     }
-//     div{
-//         a{
-//             font-size: 2rem;
-//             @extend %centrado;
-//         }
-//     }
-// }
-
-// .posicion:hover,
-// .posicion-2:hover,
-// {  transform: scale(1.03);
-// }
-
-// #imgs {
-//     height: 60vh;
-//     margin: 1rem 1.5rem 1rem 1.5rem;
-//     border: 2px solid nth($color, 8);
-//     border-radius: 15px;
-// }
-
-// // .posicion-1 {
-// //     grid-area: oro;
-// //     transition-property: all;
-// //     transition-duration: 3s;
-// // }
-
-// // .posicion-2 {
-// //     grid-area: plata;
-// //     transition-property: all;
-// //     transition-duration: 3s;
-// // }
-
-// // .posicion-3 {
-// //     grid-area: piedras;
-// //     transition-property: all;
-// //     transition-duration: 3s;
-// // }
-
-// // .foto-piedra {
-// //     width: 700px;
-// //     height: 350px;
-// //     margin-left: 180px;
-// //     border: 3px solid nth($color, 8);
-// //     border-radius: 15px;
-// // }
-
-// /*SECCION PREGUNTAS FRECUENTES Y MEDIDAS DE ANILLO*/
-// .posicion-4 {
-//     font-size: 1.5rem;
-//     font-family: "Roboto Mono", monospace;
-//     border: 3px solid nth($color, 8);
-//     margin-top: 30px;
-//     padding-top: 90px;
-//     text-align: center;
-//     border-radius: 20%;
- 
-
-//     li {
-//         padding: 3rem 1rem 3rem 3rem;
-//     }
-// }

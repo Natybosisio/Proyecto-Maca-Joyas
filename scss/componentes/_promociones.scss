@@ -23,7 +23,7 @@
 /*PAGINA PROMOCIONES*/
 
 #titulo-promo {
-    @media screen and (max-width:760px){
+    @media screen and (max-width: 760px) {
         @include flexbox(flex, column wrap, center);
         font-size: 1.5rem;
     }
@@ -61,26 +61,21 @@
     }
 }
 
-.carrusel{
-    @media screen and (max-width:760px){
+.carrusel {
+    @media screen and (max-width: 760px) {
         @include flexbox(flex, column wrap, center);
-    
     }
 
     @include flexbox(flex, row wrap, center);
-    
 
-   h5 {
-    margin-bottom: 35rem;
-    
-    color: nth($color,15 );
-    background-color:nth($color,18 ) ;
+    h5 {
+        margin-bottom: 35rem;
+
+        color: nth($color, 15);
+        background-color: nth($color, 18);
+    }
+    p {
+        color: nth($color, 15);
+        background-color: nth($color, 18);
+    }
 }
-p{
-    color: nth($color,15 );
-    background-color:nth($color,18 ) ;
-   
-    
-}
-   }
-   
