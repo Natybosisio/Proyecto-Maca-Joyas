@@ -5,7 +5,7 @@
 
 .posicion-container {
     @media screen and (max-width: 480px) {
-        @include flexbox(flex, column wrap, space-around);
+        @include flexbox(flex, column wrap, center);
     }
     @include flexbox(flex, row wrap, center);
     margin: 0.8em;
@@ -13,15 +13,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0.8em;
-        padding: 0.5em;
+       
+        
         @media screen and (max-width: 480px) {
-            margin-left: auto;
-            width: 100%;
+           width: 100%;
         }
         width: 30%;
         img {
-            width: 100%;
+            width: 90%;
 
             &:hover {
                 box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
@@ -33,24 +32,28 @@
 }
 
 .style-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     @extend %texto;
 }
 
 .listado-aside {
-    margin: 2em;
+   
     border: 1px solid nth($color, 7);
     border-radius: 5px;
     text-align: center;
     ul {
         @media screen and (max-width: 670px) {
             @include flexbox(flex, column wrap, center);
+          
         }
-        @include flexbox(flex, row nowrap, center);
+        @include flexbox(flex, row wrap, center);
         li {
-            padding: 1em;
-            font-size: 2em;
+            padding: 0.8em;
+            font-size: 1.5em;
         }
+        // ul{
+        //     margin-left: 0%;
+        // PROBE ESTO PORQUE EL ASIDE TIENE UN PADDING O MARGING QUE NO ME PERMITE CENTRAR}
     }
 }

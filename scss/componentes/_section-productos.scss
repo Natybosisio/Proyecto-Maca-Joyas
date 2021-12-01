@@ -1,54 +1,54 @@
 @import "../base/lista";
 @import "../base/general";
+@import "../base/mixins";
 
-// estilos para todos los productos
-
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-  .posicion-item {
-    display: flex;
-    flex-direction: column;
-    width: 15vh;
-  }
-}
+// estilos para todos los productos-VER PORQUE NO QUEDA CENTRADO
 
 #titulo-ppal-productos {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: nth($color, 8);
   background-color: nth($color, 4);
   margin-top: 1rem;
   @extend %centrado;
 }
 
+
 #titulo-joyas {
-  font-family: monospace;
-  text-transform: uppercase;
-  font-size: 2rem;
+  @extend %centrado;
+  @extend %texto;
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  @extend %centrado;
-  color: nth($color, 3);
   border: 2px solid nth($color, 3);
   background-color: nth($color, 8);
 }
 
-#imgs-productos {
-  width: 100%;
-  height: 100%;
-  border: 2px solid nth($color, 8);
-  border-radius: 1rem;
-  margin: 1rem;
+.container {
+  @include flexbox(flex, row wrap,center);
+
+  .posicion-item {
+    display: flex;
+    flex-direction: column;
+    width: 15vh;
+    margin: 1em;
+   
+
+        #imgs-productos {
+          width: 100%;
+          height: 100%;
+          border: 2px solid nth($color, 8);
+          border-radius: 1rem;
+          margin: 1rem;
+          }
+     }
+
+
 }
 
 aside {
   @media screen and (max-width: 780px) {
     a {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
   @media screen and (max-width: 460px) {
@@ -57,16 +57,15 @@ aside {
     }
   }
   .link-productos {
-    font-size: 3rem;
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    color: nth($color, 2); /*####No me lo modifica*/
+    @extend %centrado;
+    
+    font-size: 2rem;
     border: 2px solid nth($color, 2);
     border-radius: 1rem;
     background-color: nth($color, 8);
     width: 30%;
-    @extend %centrado;
-    margin-left: 0.5rem;
+    margin: 0.5rem;
+   
   }
 }
 

@@ -5,14 +5,10 @@
 
 /*Estilo del footer*/
 
-iframe {
-    border: 2px solid nth($color, 10);
-    margin-top: 40px;
-}
 
 .footer-conteiner {
     @media screen and (max-width: 480px) {
-        @include flexbox(flex, column wrap, space-around);
+        @include flexbox(flex, column wrap, center);
     }
     @include flexbox(flex, row wrap, center);
 
@@ -27,39 +23,51 @@ iframe {
             width: 100%;
         }
         color: nth($color, 3);
-        font-family: "Roboto Mono", monospace;
-        font-size: 1.5rem;
-        text-transform: uppercase;
+        font-size: 1rem;
+        @extend %texto;
         @extend %centrado;
-        margin-bottom: 10px;
-    }
+        width: 100%;
+
+        p , a{
+        text-align: center;}
+
+     }
 
     .footer-redes {
-        @include flexbox(flex, row nowrap, space-evenly);
-        color: nth($color, 1);
-        font-family: "Roboto Mono", monospace;
-        font-size: 1rem;
+        @include flexbox(flex, row nowrap, center);
+                color: nth($color, 1);
+        @extend %texto;
+        font-size: 0.5em;
+       
     }
 
+    
+    
     .footer-envios {
         @media screen and (max-width: 760px) {
             @include flexbox(flex, column wrap, center);
             align-items: center;
         }
+
+        font-size: 0.5em;
         @include flexbox(flex, row nowrap, space-around);
-        color: nth($color, 3);
-        font-size: 1rem;
-        font-family: "Roboto Mono", monospace;
-        text-transform: capitalize;
+        @extend %texto;
+
+       
     }
-    #envios {
-        margin-top: 4rem;
-        text-align: center;
+
+
+    iframe {
+        border: 2px solid nth($color, 10);
+        width: 100%;
+        
     }
 }
+        
+   
 
 @each $redes in instagram, facebook, wp {
     .#{$redes} {
-        background-image: url(../../SRC/iconos/#{$redes}.jpg);
+        background-image: url(../../SRC/iconos/#{$redes}.png);
     }
 }
