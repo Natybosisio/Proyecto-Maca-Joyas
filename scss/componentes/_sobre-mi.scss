@@ -4,12 +4,11 @@
 @import "../base/mixins";
 
 .descripcion {
-  
     @media screen and (max-width: 600px) {
         @include flexbox(flex, column wrap, center);
-    }  
-    @include flexbox(flex,row wrap, center);
-    
+    }
+    @include flexbox(flex, row wrap, center);
+
     .nombre {
         font-size: 2rem;
         text-transform: capitalize;
@@ -17,45 +16,40 @@
         background-color: nth($color, 14);
         margin-top: 3rem;
     }
-    .posicion{
-         
-      @include flexbox(flex,row wrap, center);
+    .posicion {
+        @include flexbox(flex, row wrap, center);
 
-      
-    #foto {
-        display: flex;
-        justify-content: center;
-        width: 60vh;
-        height: auto;
-        border-radius: 50px;
-        border: 1px solid nth($color, 8);
-        margin-top: 0.5rem;
-        
+        #foto {
+            display: flex;
+            justify-content: center;
+            width: 60vh;
+            height: auto;
+            border-radius: 50px;
+            border: 1px solid nth($color, 8);
+            margin-top: 0.5rem;
 
-        &:hover {
-            box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-            -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+            &:hover {
+                box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+            }
         }
-    }
 
-    .informacion-personal {
-        background-color:  nth($color, 12);
-        font-size: 1.5rem;
-        text-align: center;
-        border: 4px solid nth($color, 14);
-        border-style: groove;
-        font-family: 'Raleway', sans-serif;
-        text-transform: none;
-        @extend %centrado;
+        .informacion-personal {
+            background-color: nth($color, 12);
+            font-size: 1.5rem;
+            text-align: center;
+            border: 4px solid nth($color, 14);
+            border-style: groove;
+            font-family: "Raleway", sans-serif;
+            text-transform: none;
+            @extend %centrado;
 
-        &:hover {
-            box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-            -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+            &:hover {
+                box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+            }
         }
-    } 
-
     }
 }
- 

@@ -222,7 +222,8 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
     width: 100%;
   }
 }
-.footer-conteiner .footer-pagos p, .footer-conteiner .footer-pagos a {
+.footer-conteiner .footer-pagos p,
+.footer-conteiner .footer-pagos a {
   text-align: center;
 }
 .footer-conteiner .footer-redes {
@@ -456,7 +457,8 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
     width: 100%;
   }
 }
-.footer-conteiner .footer-pagos p, .footer-conteiner .footer-pagos a {
+.footer-conteiner .footer-pagos p,
+.footer-conteiner .footer-pagos a {
   text-align: center;
 }
 .footer-conteiner .footer-redes {
@@ -728,7 +730,8 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
     width: 100%;
   }
 }
-.footer-conteiner .footer-pagos p, .footer-conteiner .footer-pagos a {
+.footer-conteiner .footer-pagos p,
+.footer-conteiner .footer-pagos a {
   text-align: center;
 }
 .footer-conteiner .footer-redes {

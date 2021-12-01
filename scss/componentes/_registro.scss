@@ -7,78 +7,61 @@
 /*PERFIL*/
 .container {
    @include flexbox(flex, row wrap, center);
-   
+
    .posicion {
       @include flexbox(flex, column wrap, center);
       width: 50%;
-      
+
       .registrate {
          font-size: 1rem;
          color: nth($color, 9);
-         font-family: 'Raleway', sans-serif;
-      
+         font-family: "Raleway", sans-serif;
+
          .boton {
             background-color: nth($color, 4);
             color: nth($color, 24);
             align-items: center;
-            
-         }//ESTE BOTON LO QUIERO CENTRADO 
-      }  
-   
+         } //ESTE BOTON LO QUIERO CENTRADO
+      }
+   }
 
-      }      
+   .Question {
+      color: nth($color, 3);
+      font-size: 1rem;
+   } //ACOMODARLO PARA QUE QUEDE CENTRADO
 
-     
+   .titulo-registrate {
+      font-family: "Raleway", sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: nth($color, 24);
 
-      .Question {
-         color: nth($color, 3);
-         font-size: 1rem;
-       
-      }//ACOMODARLO PARA QUE QUEDE CENTRADO
-
-      .titulo-registrate {
-         font-family: 'Raleway', sans-serif;
-         text-transform: uppercase;
-         text-align: center;
-         font-size: 1.2rem;
-         font-weight: bold;
-         color: nth($color, 24);
-        
-         
-      
-         &:hover {
-            animation: registro 2s;
-         }
-      
-         @keyframes registro {
-            0% {
-               color: nth($color, 21);
-            }
-      
-            25% {
-               color: nth($color, 22);
-            }
-      
-            50% {
-               color: nth($color, 23);
-            }
-      
-            75% {
-               color: nth($color, 24);
-            }
-      
-            100% {
-               color: nth($color, 21);
-            }
-         }
+      &:hover {
+         animation: registro 2s;
       }
 
+      @keyframes registro {
+         0% {
+            color: nth($color, 21);
+         }
 
+         25% {
+            color: nth($color, 22);
+         }
 
+         50% {
+            color: nth($color, 23);
+         }
 
+         75% {
+            color: nth($color, 24);
+         }
+
+         100% {
+            color: nth($color, 21);
+         }
+      }
+   }
 }
-
-
-
-
-
