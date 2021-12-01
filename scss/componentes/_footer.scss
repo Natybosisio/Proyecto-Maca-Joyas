@@ -49,6 +49,13 @@
         font-size: 0.5em;
         @include flexbox(flex, row nowrap, space-around);
         @extend %texto;
+        .footer-envios--retiro{
+            @include flexbox(flex, column wrap, space-around);
+            align-items:center;
+            .fa-map-marker-alt{
+                font-size:3em;
+            }
+        }
     }
 
     iframe {

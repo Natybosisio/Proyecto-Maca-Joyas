@@ -247,6 +247,15 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
     align-items: center;
   }
 }
+.footer-conteiner .footer-envios .footer-envios--retiro {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-conteiner .footer-envios .footer-envios--retiro .fa-map-marker-alt {
+  font-size: 3em;
+}
 .footer-conteiner iframe {
   border: 2px solid #f9d5a7;
   width: 100%;
@@ -481,6 +490,15 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
     justify-content: center;
     align-items: center;
   }
+}
+.footer-conteiner .footer-envios .footer-envios--retiro {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-conteiner .footer-envios .footer-envios--retiro .fa-map-marker-alt {
+  font-size: 3em;
 }
 .footer-conteiner iframe {
   border: 2px solid #f9d5a7;
@@ -754,6 +772,15 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
     justify-content: center;
     align-items: center;
   }
+}
+.footer-conteiner .footer-envios .footer-envios--retiro {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-conteiner .footer-envios .footer-envios--retiro .fa-map-marker-alt {
+  font-size: 3em;
 }
 .footer-conteiner iframe {
   border: 2px solid #f9d5a7;
