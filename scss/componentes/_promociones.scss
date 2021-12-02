@@ -29,7 +29,7 @@
 #titulo-promo {
     @media screen and (max-width: 480px) {
         @include flexbox(flex, column wrap, center);
-        font-size: 0.5em;
+        font-size: 1.5em;
     }
     text-transform: none;
     font-size: 2rem;
