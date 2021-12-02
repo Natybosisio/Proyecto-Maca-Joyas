@@ -780,12 +780,12 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
 /*PERFIL*/
 .container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
 }
 .container .posicion {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   width: 50%;
 }

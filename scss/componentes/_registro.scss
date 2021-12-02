@@ -6,10 +6,10 @@
 
 /*PERFIL*/
 .container {
-   @include flexbox(flex, row wrap, center);
+   @include flexbox(flex, row nowrap, center);
 
    .posicion {
-      @include flexbox(flex, column wrap, center);
+      @include flexbox(flex, column nowrap, center);
       width: 50%;
 
       .registrate {
@@ -28,7 +28,8 @@
    .Question {
       color: nth($color, 3);
       font-size: 1rem;
-   } //ACOMODARLO PARA QUE QUEDE CENTRADO
+      
+   } 
 
    .titulo-registrate {
       font-family: "Raleway", sans-serif;
