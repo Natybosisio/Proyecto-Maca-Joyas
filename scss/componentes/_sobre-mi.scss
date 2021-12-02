@@ -2,45 +2,44 @@
 @import "../base/general";
 @import "../base/extends";
 @import "../base/mixins";
+@import "../base/mixins";
 
 
 .nombre {
     font-size: 2rem;
     text-transform: capitalize;
     text-align: center;
-    background-color: nth($color, 14);
+    background-color: nth($color, 8);
     margin-top: 3rem;
+    border-radius: 50%;
 }
+
 .descripcion {
-    @media screen and (max-width: 600px) {
-        @include flexbox(flex, column wrap, center);
-    }
+      
+
     @include flexbox(flex, row wrap, center);
 
-    .posicion {
-        @include flexbox(flex, row wrap, center);
-
-        #foto {
-            display: flex;
-            justify-content: center;
-            width: 60vh;
+       #foto {
+            filter:sepia(1);
+            width: 50vh;
             height: auto;
-            border-radius: 50px;
-            border: 1px solid nth($color, 8);
+            border-radius: 40%;
+            border: 8px solid nth($color, 14);
             margin-top: 0.5rem;
-
-         
         }
 
         .informacion-personal {
-            background-color: nth($color, 12);
+            @media screen and (max-width: 480px) {
+                @include flexbox(flex, column wrap, center);
+                font-size: 1.2em;
+            }  
+            @include flexbox(flex, row wrap, center);
+            background-color: nth($color, 8);
             font-size: 1.5rem;
             text-align: center;
-            border: 4px solid nth($color, 14);
-            border-style: groove;
             font-family: "Raleway", sans-serif;
             text-transform: none;
-            @extend %centrado;
+            border-radius: 17%;
 
             &:hover {
                 box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
@@ -48,5 +47,5 @@
                 -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
             }
         }
-    }
+    
 }
