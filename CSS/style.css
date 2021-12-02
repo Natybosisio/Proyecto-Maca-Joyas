@@ -367,12 +367,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
 }
 .posicion-container .posicion img {
   width: 90%;
-  filter: grayscale(80%);
-}
-@media screen and (max-width: 480px) {
-  .posicion-container .posicion img {
-    filter: none;
-  }
 }
 .posicion-container .posicion img:hover {
   box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
@@ -870,15 +864,12 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  text-transform: none;
 }
-@media screen and (max-width: 750px) {
-  .medidas h2 {
-    font-size: 0.5em;
-  }
-  .medidas img {
-    width: 100%;
+@media screen and (max-width: 480px) {
+  .medidas {
+    font-size: 0.8em;
     align-items: center;
-    margin: 1rem;
   }
 }
 .medidas .posicion-resp {
@@ -892,10 +883,9 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
 }
 .medidas .posicion-resp h2 {
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.5em;
   text-align: center;
   color: #5f6769;
-  margin: 1rem;
 }
 
 * {
@@ -957,11 +947,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
   border-radius: 50px;
   border: 1px solid #ffdac7;
   margin-top: 0.5rem;
-}
-.descripcion .posicion #foto:hover {
-  box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
 }
 .descripcion .posicion .informacion-personal {
   background-color: #d6d2c4;

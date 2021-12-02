@@ -26,6 +26,9 @@
   <!--CSS-->
   <link rel="stylesheet" href="../../CSS/style.css">
 
+  <!-- Iconos -->
+  <script src="https://kit.fontawesome.com/01c9b60a99.js" crossorigin="anonymous"></script>
+
 
   <!--META PARA USAR RESPONSIVE Y QUE EL USUARIO NO PUEDA HACER ZOOM (TUTORIAL)-->
   <meta name="viewport"
@@ -57,53 +60,49 @@
   <header class="header">
 
     <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid d-flex justify-content-around">
+            <div class="titulo-marca d-flex flex-column align-items-center">
+                <a class="navbar-brand d-flex justify-content-center" href="../../index.html"><img id="logo" class="animate__animated animate__bounce"
+                        src="../IMAGENES/Imagenes-no-mercaderia/M-01.png" alt="maca joyas logo">
+                </a>
+                <h1 class="animate__animated animate__bounce">maca joyas</h1>
+                <h2>venta minorista y mayorista </h2>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="container-fluid d-flex justifify-content-center">
-        <div class="titulo-marca">
-          <a class="navbar-brand" href="../../index.html"><img id=logo class="animate__animated animate__bounce"
-              src="../IMAGENES/Imagenes-no-mercaderia/M-01.png" alt="maca joyas logo">
-          </a>
-          <h1 class="animate__animated animate__bounce">maca joyas</h1>
-          <h2>venta minorista y mayorista </h2>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Pagos y envios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Page/sobremi.html">sobre mi</a>
+                    </li>
+                    <li class="nav-item dropdown me-3">
+                        <a class="nav-link dropdown-toggle" href="iniciosesion.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Perfil
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="iniciosesion.html">Inicia Sesion</a></li>
+                            <li><a class="dropdown-item" href="registro.html">Registrate</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse distribucion" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Pagos y envios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./sobremi.html">sobre mi</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="perfil.html" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Perfil
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="perfil.html">Inicia Sesion</a></li>
-                <li><a class="dropdown-item" href="perfil.html">Registrate</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-
-              </ul>
-            </li>
-
-          </ul>
-        </div>
-      </div>
     </nav>
 
     </nav>
-  </header>
+</header>
 
   <section class="container">
 
@@ -170,13 +169,14 @@
             width="120" height="120" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
-        <div class="m-5">
+        <div class="footer-envios--retiro m-5">
           <h4>puntos de retiro</h4>
-          <img src="../iconos/punto-retiro.png" width="35" height="35" alt="icono-ubicación" />
+          <i class="fas fa-map-marker-alt"></i>
           <!--LOGO DE UBICACION-->
           <p class="m-1"> San telmo</p>
           <p class="m-1"> Balvanera</p>
-        </div>
+      </div>
+
 
         <div class="m-5">
           <h4>envios a todo el pais </h4>

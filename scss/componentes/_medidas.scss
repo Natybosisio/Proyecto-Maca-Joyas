@@ -8,23 +8,16 @@
 /*ESTA MEDIA NO FUNCIONA, LA CAMBIE DE MEDIDAs A POSICIÓN RESP*/
 
 .medidas {
+    @media screen and (max-width: 480px) {
+        font-size: 0.8em;
+        align-items: center;
+        }
     @include flexbox(flex, row wrap, center);
-
-    @media screen and (max-width: 750px) {
-        h2 {
-            font-size: 0.5em;
-        }
-
-        img {
-            width: 100%;
-            align-items: center;
-            margin: 1rem;
-        }
-    }
-
-    .posicion-resp {
-        @include flexbox(flex, row wrap, center);
-
+    text-transform: none;
+   .posicion-resp {
+       
+            @include flexbox(flex, row wrap, center);
+       
         img {
             width: 40%;
             margin-left: 1rem;
@@ -32,10 +25,11 @@
 
         h2 {
             width: 100%;
-            font-size: 1rem;
+            font-size: 1.5em;
             text-align: center;
             color: nth($color, 2);
-            margin: 1rem;
+            
+           
         }
     }
 }
