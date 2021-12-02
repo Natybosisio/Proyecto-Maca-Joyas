@@ -999,8 +999,14 @@ a:link {
 .container .posicion-item {
   display: flex;
   flex-direction: column;
-  width: 15vh;
+  align-items: center;
+  width: 30%;
   margin: 1em;
+}
+@media screen and (max-width: 480px) {
+  .container .posicion-item {
+    width: 80%;
+  }
 }
 .container .posicion-item #imgs-productos {
   width: 100%;
@@ -1010,12 +1016,12 @@ a:link {
   margin: 1rem;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 970px) {
   aside a {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
   aside a {
     font-size: 1rem;
   }
