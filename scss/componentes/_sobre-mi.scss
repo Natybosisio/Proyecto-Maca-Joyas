@@ -3,19 +3,20 @@
 @import "../base/extends";
 @import "../base/mixins";
 
+
+.nombre {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: nth($color, 14);
+    margin-top: 3rem;
+}
 .descripcion {
     @media screen and (max-width: 600px) {
         @include flexbox(flex, column wrap, center);
     }
     @include flexbox(flex, row wrap, center);
 
-    .nombre {
-        font-size: 2rem;
-        text-transform: capitalize;
-        text-align: center;
-        background-color: nth($color, 14);
-        margin-top: 3rem;
-    }
     .posicion {
         @include flexbox(flex, row wrap, center);
 

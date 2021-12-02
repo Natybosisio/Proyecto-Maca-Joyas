@@ -6,6 +6,10 @@
 
 /*SECCION PROMOCIONES pagina ppal*/
 .section-promociones {
+    @media screen and (max-width: 480px) {
+        @include flexbox(flex, column wrap, center);
+        font-size:1em;
+    }
     text-align: center;
     margin-top: 0.3rem;
     border: 3px solid nth($color, 8);
@@ -15,8 +19,7 @@
     @extend %texto;
     font-weight: bold;
     background-color: nth($color, 14);
-    transition-property: all;
-    transition-duration: 3s;
+    transition: all 3s;
     width: 100%;
     justify-content: center;
 }
@@ -24,9 +27,9 @@
 /*PAGINA PROMOCIONES*/
 
 #titulo-promo {
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 480px) {
         @include flexbox(flex, column wrap, center);
-        font-size: 1.5rem;
+        font-size: 0.5em;
     }
     text-transform: none;
     font-size: 2rem;

@@ -80,15 +80,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
   font-size: 1rem;
 }
 
-.distribucion {
-  font-size: 1rem;
-}
-@media screen and (max-width: 960px) {
-  .distribucion ul li a {
-    font-size: 1rem;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -157,15 +148,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
 }
 .titulo-marca h2 {
   font-size: 1rem;
-}
-
-.distribucion {
-  font-size: 1rem;
-}
-@media screen and (max-width: 960px) {
-  .distribucion ul li a {
-    font-size: 1rem;
-  }
 }
 
 * {
@@ -283,10 +265,17 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
   font-size: 2rem;
   font-weight: bold;
   background-color: #ddeff3;
-  transition-property: all;
-  transition-duration: 3s;
+  transition: all 3s;
   width: 100%;
   justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  .section-promociones {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-size: 1em;
+  }
 }
 
 /*PAGINA PROMOCIONES*/
@@ -296,12 +285,12 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
   color: #0edabe;
   text-align: center;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 480px) {
   #titulo-promo {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 0.5em;
   }
 }
 
@@ -378,11 +367,19 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
 }
 .posicion-container .posicion img {
   width: 90%;
+  filter: grayscale(80%);
+}
+@media screen and (max-width: 480px) {
+  .posicion-container .posicion img {
+    filter: none;
+  }
 }
 .posicion-container .posicion img:hover {
   box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+  transition: all 500ms;
+  filter: none;
 }
 
 .style-text {
@@ -400,7 +397,7 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
   flex-flow: row wrap;
   justify-content: center;
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 480px) {
   .listado-aside ul {
     display: flex;
     flex-flow: column wrap;
@@ -410,6 +407,11 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
 .listado-aside ul li {
   padding: 0.8em;
   font-size: 1.5em;
+}
+@media screen and (max-width: 480px) {
+  .listado-aside ul li {
+    font-size: 1em;
+  }
 }
 
 * {
@@ -587,15 +589,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
   font-size: 1rem;
 }
 
-.distribucion {
-  font-size: 1rem;
-}
-@media screen and (max-width: 960px) {
-  .distribucion ul li a {
-    font-size: 1rem;
-  }
-}
-
 #titulo-faq {
   font-size: 3rem;
   text-align: center;
@@ -683,15 +676,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
 }
 .titulo-marca h2 {
   font-size: 1rem;
-}
-
-.distribucion {
-  font-size: 1rem;
-}
-@media screen and (max-width: 960px) {
-  .distribucion ul li a {
-    font-size: 1rem;
-  }
 }
 
 * {
@@ -940,6 +924,14 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
   justify-content: center;
 }
 
+.nombre {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #ddeff3;
+  margin-top: 3rem;
+}
+
 .descripcion {
   display: flex;
   flex-flow: row wrap;
@@ -951,13 +943,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .descripcion .posi
     flex-flow: column wrap;
     justify-content: center;
   }
-}
-.descripcion .nombre {
-  font-size: 2rem;
-  text-transform: capitalize;
-  text-align: center;
-  background-color: #ddeff3;
-  margin-top: 3rem;
 }
 .descripcion .posicion {
   display: flex;
