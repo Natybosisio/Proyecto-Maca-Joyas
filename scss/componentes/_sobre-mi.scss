@@ -7,11 +7,10 @@
 
 .nombre {
     font-size: 2rem;
-    text-transform: capitalize;
     text-align: center;
     background-color: nth($color, 8);
     margin-top: 3rem;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 .descripcion {
