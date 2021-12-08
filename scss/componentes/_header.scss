@@ -7,23 +7,35 @@
 
 .header {
   background-color: nth($color, 8);
+
+  #logo {
+    @media screen and (max-width: 480px) {
+      width: 60%;
+    }
+  
+    width: 40%;
+  }
+  
+  .titulo-marca {
+             
+    @extend %texto;
+    h1 {
+      font-size: 1.5em;
+    }
+    h2 {
+      font-size: 1em;
+    }
+
+  }
+.estilo-despliegue {
+  background-color: nth($color, 8);
+  border: none;
+  width: 9vh;
+  
+  }
+  
+
+
+
 }
 
-#logo {
-  @media screen and (max-width: 480px) {
-    width: 60%;
-  }
-
-  width: 40%;
-}
-
-.titulo-marca {
-           
-  @extend %texto;
-  h1 {
-    font-size: 1.5em;
-  }
-  h2 {
-    font-size: 1em;
-  }
-}
