@@ -59,25 +59,17 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
 #logo {
   width: 40%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   #logo {
-    width: 50%;
+    width: 60%;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .titulo-marca h1 {
-    font-size: 1rem;
-  }
-  .titulo-marca h2 {
-    font-size: 0.8rem;
-  }
-}
 .titulo-marca h1 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 .titulo-marca h2 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 * {
@@ -129,25 +121,17 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
 #logo {
   width: 40%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   #logo {
-    width: 50%;
+    width: 60%;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .titulo-marca h1 {
-    font-size: 1rem;
-  }
-  .titulo-marca h2 {
-    font-size: 0.8rem;
-  }
-}
 .titulo-marca h1 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 .titulo-marca h2 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 * {
@@ -562,25 +546,17 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
 #logo {
   width: 40%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   #logo {
-    width: 50%;
+    width: 60%;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .titulo-marca h1 {
-    font-size: 1rem;
-  }
-  .titulo-marca h2 {
-    font-size: 0.8rem;
-  }
-}
 .titulo-marca h1 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 .titulo-marca h2 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 #titulo-faq {
@@ -651,25 +627,17 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
 #logo {
   width: 40%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   #logo {
-    width: 50%;
+    width: 60%;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .titulo-marca h1 {
-    font-size: 1rem;
-  }
-  .titulo-marca h2 {
-    font-size: 0.8rem;
-  }
-}
 .titulo-marca h1 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 .titulo-marca h2 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 * {
