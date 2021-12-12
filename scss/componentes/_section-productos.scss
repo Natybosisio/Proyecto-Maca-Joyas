@@ -68,6 +68,15 @@ aside {
   }
 }
 
-a {
+a , p{
   @extend %texto;
+}
+
+button{
+
+  background-color: nth($color, 3);
+  color: nth($color, 8);
+  align-items: center;
+  width: 30%;
+
 }

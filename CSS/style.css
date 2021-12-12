@@ -14,8 +14,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .posicion-container .posicion .style-text, .section-promociones, .footer-conteiner .footer-envios, .footer-conteiner .footer-redes, .footer-conteiner .footer-pagos, .header .titulo-marca {
-  color: #707070;
+a, p, #titulo-joyas, .posicion-container .posicion .style-text, .section-promociones, .footer-conteiner .footer-envios, .footer-conteiner .footer-redes, .footer-conteiner .footer-pagos, .header .titulo-marca {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -40,73 +40,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .posicion-container .posicion .style-text, .section-promociones, .footer-conteiner .footer-envios, .footer-conteiner .footer-redes, .footer-conteiner .footer-pagos, .header .titulo-marca {
-  color: #707070;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-}
-
-aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner .footer-pagos {
-  display: flex;
-  justify-content: center;
-}
-
-/*Estilo del header*/
-.header {
-  background-color: #ffdac7;
-}
-.header #logo {
-  width: 40%;
-}
-@media screen and (max-width: 480px) {
-  .header #logo {
-    width: 60%;
-  }
-}
-.header .titulo-marca h1 {
-  font-size: 1.5em;
-}
-.header .titulo-marca h2 {
-  font-size: 1em;
-}
-.header .estilo-despliegue {
-  background-color: #ffdac7;
-  border: none;
-  width: 9vh;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-html {
-  font-size: 15px;
-  scroll-behavior: smooth;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-html {
-  font-size: 15px;
-  scroll-behavior: smooth;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a, #titulo-joyas, .posicion-container .posicion .style-text, .section-promociones, .footer-conteiner .footer-envios, .footer-conteiner .footer-redes, .footer-conteiner .footer-pagos, .header .titulo-marca {
-  color: #707070;
+a, p, #titulo-joyas, .posicion-container .posicion .style-text, .section-promociones, .footer-conteiner .footer-envios, .footer-conteiner .footer-redes, .footer-conteiner .footer-pagos, .header .titulo-marca {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -155,8 +90,73 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .posicion-container .posicion .style-text, .section-promociones, .footer-conteiner .footer-envios, .footer-conteiner .footer-redes, .footer-conteiner .footer-pagos, .header .titulo-marca {
-  color: #707070;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a, p, #titulo-joyas, .posicion-container .posicion .style-text, .section-promociones, .footer-conteiner .footer-envios, .footer-conteiner .footer-redes, .footer-conteiner .footer-pagos, .header .titulo-marca {
+  color: #3c4245;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner .footer-pagos {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilo del header*/
+.header {
+  background-color: #ffdac7;
+}
+.header #logo {
+  width: 40%;
+}
+@media screen and (max-width: 480px) {
+  .header #logo {
+    width: 60%;
+  }
+}
+.header .titulo-marca h1 {
+  font-size: 1.5em;
+}
+.header .titulo-marca h2 {
+  font-size: 1em;
+}
+.header .estilo-despliegue {
+  background-color: #ffdac7;
+  border: none;
+  width: 9vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a, p, #titulo-joyas, .posicion-container .posicion .style-text, .section-promociones, .footer-conteiner .footer-envios, .footer-conteiner .footer-redes, .footer-conteiner .footer-pagos, .header .titulo-marca {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -319,8 +319,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .posicion-container .posicion .style-text, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones {
-  color: #707070;
+a, p, #titulo-joyas, .posicion-container .posicion .style-text, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -417,8 +417,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
-  color: #707070;
+a, p, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -537,8 +537,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
-  color: #707070;
+a, p, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -621,8 +621,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
-  color: #707070;
+a, p, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -671,8 +671,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
-  color: #707070;
+a, p, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -831,8 +831,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
-  color: #707070;
+a, p, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -887,8 +887,8 @@ a:link {
   text-decoration: none;
 }
 
-a, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
-  color: #707070;
+a, p, #titulo-joyas, .header .titulo-marca, .footer-conteiner .footer-pagos, .footer-conteiner .footer-redes, .footer-conteiner .footer-envios, .section-promociones, .posicion-container .posicion .style-text {
+  color: #3c4245;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
@@ -1018,6 +1018,13 @@ aside .link-productos {
   background-color: #ffdac7;
   width: 30%;
   margin: 0.5rem;
+}
+
+button {
+  background-color: #707070;
+  color: #ffdac7;
+  align-items: center;
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
