@@ -18,6 +18,8 @@
         
         @media screen and (max-width: 480px) {
             width: 100%;
+            
+            
         }
         
         
@@ -30,16 +32,17 @@
             margin-top: 1em;
         }
       
-        a img {
-                      
-            width: 100%;
-         
-            
-                box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-                -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-                -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-                transition: all 500ms;
-                filter:none;
+        img {
+            @media screen and (max-width: 480px) {
+                width: 100%;
+                
+                
+            }
+            width: 90%;
+            box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
+            filter:none;
             
         }
 

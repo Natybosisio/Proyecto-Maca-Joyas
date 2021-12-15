@@ -69,6 +69,14 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
   border: none;
   width: 9vh;
 }
+.header a {
+  font-size: 1.2em;
+}
+@media screen and (max-width: 480px) {
+  .header a {
+    font-size: 1em;
+  }
+}
 
 * {
   margin: 0;
@@ -128,6 +136,14 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
   background-color: #ffdac7;
   border: none;
   width: 9vh;
+}
+.header a {
+  font-size: 1.2em;
+}
+@media screen and (max-width: 480px) {
+  .header a {
+    font-size: 1em;
+  }
 }
 
 * {
@@ -244,7 +260,6 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
   padding: 1em;
   font-size: 2rem;
   font-weight: bold;
-  background-color: #ddeff3;
   transition: all 3s;
   width: 100%;
   justify-content: center;
@@ -350,13 +365,17 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
   text-align: center;
   margin-top: 1em;
 }
-.posicion-container .posicion a img {
-  width: 100%;
+.posicion-container .posicion img {
+  width: 90%;
   box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-  transition: all 500ms;
   filter: none;
+}
+@media screen and (max-width: 480px) {
+  .posicion-container .posicion img {
+    width: 100%;
+  }
 }
 
 .listado-aside {
@@ -555,6 +574,14 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
   border: none;
   width: 9vh;
 }
+.header a {
+  font-size: 1.2em;
+}
+@media screen and (max-width: 480px) {
+  .header a {
+    font-size: 1em;
+  }
+}
 
 #titulo-faq {
   font-size: 3rem;
@@ -633,6 +660,14 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
   background-color: #ffdac7;
   border: none;
   width: 9vh;
+}
+.header a {
+  font-size: 1.2em;
+}
+@media screen and (max-width: 480px) {
+  .header a {
+    font-size: 1em;
+  }
 }
 
 * {
@@ -955,11 +990,11 @@ p {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.2em;
   text-align: center;
-  color: #f5618d;
+  color: #5f6769;
 }
 @media screen and (max-width: 480px) {
   p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 

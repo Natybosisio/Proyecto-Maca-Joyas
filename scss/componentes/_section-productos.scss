@@ -14,14 +14,14 @@
 
 p{
   @media screen and (max-width: 480px) {
-      font-size: 1em;
+      font-size: 1.2em;
     }
   @include flexbox(flex, row wrap, center);
   font-size: 1.5em;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.2em;
   text-align: center;
-  color: nth($color, 23);;
+  color: nth($color, 2);
   
 
 }

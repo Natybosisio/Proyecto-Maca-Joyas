@@ -14,15 +14,16 @@
   }
   
   .titulo-marca {
-             
+           
     @extend %texto;
+   
     h1 {
       font-size: 1.5em;
     }
     h2 {
       font-size: 1em;
     }
-
+   
   }
 .estilo-despliegue {
   background-color: nth($color, 8);
@@ -31,7 +32,13 @@
   
   }
   
-
+  a{
+    @media screen and (max-width: 480px) {
+      font-size: 1em;
+      
+      }
+    font-size: 1.2em;
+  }
 
 
 }
