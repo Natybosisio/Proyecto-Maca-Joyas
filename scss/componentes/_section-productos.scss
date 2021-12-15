@@ -5,13 +5,26 @@
 // estilos para todos los productos-
 
 #titulo-ppal-productos {
-  font-size: 2rem;
+  font-size: 2.5em;
   color: nth($color, 8);
   background-color: nth($color, 4);
   margin-top: 1rem;
   @extend %centrado;
 }
 
+p{
+  @media screen and (max-width: 480px) {
+      font-size: 1em;
+    }
+  @include flexbox(flex, row wrap, center);
+  font-size: 1.5em;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: nth($color, 23);;
+  
+
+}
 #titulo-joyas {
   @extend %centrado;
   @extend %texto;
@@ -20,6 +33,7 @@
   margin-top: 1rem;
   border: 2px solid nth($color, 3);
   background-color: nth($color, 8);
+  
 }
 
 .container {
@@ -38,7 +52,7 @@
     #imgs-productos {
       width: 100%;
       height: 100%;
-      border: 2px solid nth($color, 8);
+      border: 3px solid nth($color, 8);
       border-radius: 1rem;
       margin: 1rem;
     }
@@ -68,15 +82,6 @@ aside {
   }
 }
 
-a , p{
+a {
   @extend %texto;
-}
-
-button{
-
-  background-color: nth($color, 3);
-  color: nth($color, 8);
-  align-items: center;
-  width: 30%;
-
 }

@@ -9,10 +9,7 @@
   background-color: nth($color, 8);
 
   #logo {
-    @media screen and (max-width: 480px) {
-      width: 60%;
-    }
-  
+   
     width: 40%;
   }
   
