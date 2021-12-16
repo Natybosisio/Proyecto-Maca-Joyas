@@ -8,7 +8,7 @@
 .section-promociones {
     @media screen and (max-width: 480px) {
         @include flexbox(flex, column wrap, center);
-        font-size:1em;
+        font-size: 1em;
     }
     text-align: center;
     margin-top: 0.3rem;
@@ -18,7 +18,7 @@
     font-size: 2rem;
     @extend %texto;
     font-weight: bold;
-    
+
     transition: all 3s;
     width: 100%;
     justify-content: center;

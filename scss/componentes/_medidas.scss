@@ -5,19 +5,16 @@
 
 /*PAGINA MEDIDAS*/
 
-/*ESTA MEDIA NO FUNCIONA, LA CAMBIE DE MEDIDAs A POSICIÓN RESP*/
-
 .medidas {
     @media screen and (max-width: 480px) {
         font-size: 0.8em;
         align-items: center;
-        }
+    }
     @include flexbox(flex, row wrap, center);
     text-transform: none;
-   .posicion-resp {
-       
-            @include flexbox(flex, row wrap, center);
-       
+    .posicion-resp {
+        @include flexbox(flex, row wrap, center);
+
         img {
             width: 40%;
             margin-left: 1rem;
@@ -28,8 +25,6 @@
             font-size: 1.5em;
             text-align: center;
             color: nth($color, 2);
-            
-           
         }
     }
 }

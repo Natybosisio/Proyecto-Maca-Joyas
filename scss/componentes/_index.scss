@@ -7,22 +7,20 @@
     @media screen and (max-width: 480px) {
         @include flexbox(flex, column wrap, center);
     }
-    
+
     @include flexbox(flex, row wrap, center);
     margin-top: 2em;
     .posicion {
         display: flex;
         flex-direction: column;
         width: 30%;
-       margin: 0.5em;
-        
+        margin: 0.5em;
+
         @media screen and (max-width: 480px) {
             width: 100%;
             align-items: center;
-            
-            
         }
-        
+
         .style-text {
             font-size: 1.5rem;
             text-decoration: none;
@@ -30,37 +28,27 @@
             text-align: center;
             margin-top: 1em;
         }
-      
+
         img {
-            
             width: 100%;
             box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
             -webkit-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
             -moz-box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.75);
-            filter:none;
-            
+            filter: none;
         }
-
-        
-    } 
+    }
 }
 
-
-
 .listado-aside {
-   
     text-align: center;
-    
-   
+
     ul {
         @media screen and (max-width: 480px) {
             @include flexbox(flex, column wrap, center);
             padding: 0;
-            
         }
         @include flexbox(flex, row wrap, center);
-       
-      
+
         li {
             @media screen and (max-width: 480px) {
                 font-size: 1em;
@@ -70,12 +58,10 @@
             font-size: 1.5em;
             border: 3px solid nth($color, 7);
             border-radius: 5px;
-         margin-top: 0.5em;
+            margin-top: 0.5em;
             width: 60%;
-           
-            
-            background-color: nth($color, 28) ;
+
+            background-color: nth($color, 28);
         }
-       
     }
 }
