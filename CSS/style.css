@@ -53,6 +53,8 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
 /*Estilo del header*/
 .header {
   background-color: #ffdac7;
+  position: sticky;
+  top: 0;
 }
 .header #logo {
   width: 40%;
@@ -121,6 +123,8 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
 /*Estilo del header*/
 .header {
   background-color: #ffdac7;
+  position: sticky;
+  top: 0;
 }
 .header #logo {
   width: 40%;
@@ -554,6 +558,8 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
 /*Estilo del header*/
 .header {
   background-color: #ffdac7;
+  position: sticky;
+  top: 0;
 }
 .header #logo {
   width: 40%;
@@ -755,6 +761,8 @@ aside .link-productos, #titulo-joyas, #titulo-ppal-productos, .footer-conteiner 
 /*Estilo del header*/
 .header {
   background-color: #ffdac7;
+  position: sticky;
+  top: 0;
 }
 .header #logo {
   width: 40%;

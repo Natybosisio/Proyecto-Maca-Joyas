@@ -7,6 +7,8 @@
 
 .header {
   background-color: nth($color, 8);
+  position: sticky;
+  top: 0;
 
   #logo {
     width: 40%;
